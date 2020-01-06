@@ -35,6 +35,8 @@ Debug the ros node with GDB. Some error (such as **segment fault**) is difficult
 | info files | show the detail information of the debugged file |
 | info var | show all the global and static variables |
 | info local | show all the local variables |
+| *More* | [Link](https://blog.csdn.net/weixin_35695879/article/details/85254399), [book](http://lsi.vc.ehu.es/pablogn/investig/ROS/9781782161448_Chapter-03.pdf)|
+
 
 <!-- ```
 ├── self-supervised-depth-completion
