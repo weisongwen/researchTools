@@ -1,7 +1,7 @@
 # research_tools 
 
 ## Abstract
-This project contains usefull tools for my research. 
+This project contains some blogs, ideas, reviews and news related to sensor fusion and autonomous systems, e.g. autonomous driving and unmanned aerial vehicles.
 
 <!-- <p align="center">
   <img width="712pix" src="img/framework20200104.png">
@@ -38,6 +38,9 @@ This project contains usefull tools for my research.
 - [Ceres Solver Introduction](https://zhuanlan.zhihu.com/p/82984902)
 - [GLOG, GFLAGS, Cmakelist](https://zhuanlan.zhihu.com/p/81854369)
 
+### Paper Reviewing
+- [Paper reviewing with ideas and comments](paperReview/README.md) 
+
 ## Industrial
 - [Kolmostar, GNSS](https://zhuanlan.zhihu.com/p/58346842)
 
@@ -57,6 +60,12 @@ This project contains usefull tools for my research.
 - [RAM Lab in HKUST](https://ram-lab.com/)
 - [Robot Perception Lab](https://rpl.ri.cmu.edu/)
 - [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/)
+
+
+<!-- | [NAV Lab at Standford](http://web.stanford.edu/~gracegao/) | [Senseable City Lab at MIT](http://senseable.mit.edu/) | [ASPIN at University of California, Irvine](http://aspin.eng.uci.edu/research.html) | [toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
+| :---:  | :---:  | :---:  | :---:  |
+| [IRIS at ETHZ](https://www.iris.ethz.ch/) | [HKUST Aerial Robotics Group](http://uav.ust.hk/) | [RAM Lab in HKUST](https://ram-lab.com/) | [Robot Perception Lab](https://rpl.ri.cmu.edu/) |
+| [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/) | lab | lab | lab | -->
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
