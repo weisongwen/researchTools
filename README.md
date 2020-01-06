@@ -41,6 +41,21 @@ This project contains usefull tools for research.
 ## Industrial
 - [Kolmostar, GNSS](https://zhuanlan.zhihu.com/p/58346842)
 
+## Challenging Dataset
+- [UrbanLoco:A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes](https://zhuanlan.zhihu.com/p/58346842)
+- [UrbanNav:an Open-Sourcing Localization Data Collected in Asian Urban Canyons, Including Tokyo and Hong Kong](https://zhuanlan.zhihu.com/p/58346842)
+- [Kaist Urban Dataset](https://irap.kaist.ac.kr/dataset/download_1.html)
+- [NCLT Dataset:The University of Michigan North Campus Long-Term Vision and LIDAR Dataset.](http://robots.engin.umich.edu/nclt/)
+
+## Laboratory in Navigation
+- [NAV Lab at Standford](http://web.stanford.edu/~gracegao/)
+- [Senseable City Lab at MIT](http://senseable.mit.edu/)
+- [ASPIN at University of California, Irvine](http://aspin.eng.uci.edu/research.html)
+- [toronto AI Lab](http://www.cs.toronto.edu/~urtasun/)
+- [IRIS at ETHZ](https://www.iris.ethz.ch/)
+- [HKUST Aerial Robotics Group](http://uav.ust.hk/)
+- [RAM Lab in HKUST](https://ram-lab.com/)
+- [Robot Perception Lab](https://rpl.ri.cmu.edu/)
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
