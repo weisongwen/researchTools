@@ -1,4 +1,4 @@
-# VISUAL-INERTIAL NAVIGATION: A CONCISE REVIEW([pdf](https://arxiv.org/pdf/1906.02650.pdf))
+# VISUAL-INERTIAL NAVIGATION: A CONCISE REVIEW([pdf](https://arxiv.org/pdf/1906.02650.pdf)) : Day 07th, Jan 2020 in Hong Kong
 
 ## Abstract
 As inertial and visual sensors are becoming ubiquitous, visual-inertial navigation systems (VINS)

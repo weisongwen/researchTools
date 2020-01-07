@@ -3,7 +3,7 @@
 ## Abstract
 The simplest services for hosting project files are Dropbox and Google Drive . It is very easy to get started with these systems, and they allow you to share files among laptops and mobile units with as many users as you want. The systems offer a kind of version control in that the files are stored frequently (several times per minute), and you can go back to previous versions for the last 30 days. However, it is challenging to find the right version from the past when there are so many of them and when the different versions are not annotated with sensible comments.
 
-**Git** is designed to solve this kind of problem!
+**[Git](https://github.com/weisongwen)** is designed to solve this kind of problem!
 
 ## Content
 ### Initialize your github respository and upload your code
@@ -23,11 +23,11 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     ```
     $ git add -A
     ```
-    - **step 2: commit
+    - **step 2: commit**
     ```
     $ git commit -m "what change you have done"
     ```
-    - **step 3: push
+    - **step 3: push**
     ```
     $ git push -u origin master
     ```
