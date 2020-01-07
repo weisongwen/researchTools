@@ -14,13 +14,13 @@ Expect to read a paper per day.
 
 ### Visual/inertial SLAM
 
-- [Low-Cost GPS-Aided LiDAR State Estimation and Map Building](20200106/README.md)
+- [VISUAL-INERTIAL NAVIGATION: A CONCISE REVIEW](20200107/README.md)
 
 ### Sensor Fusion
-- [Low-Cost GPS-Aided LiDAR State Estimation and Map Building](20200106/README.md)
+- [TBD](20200106/README.md)
 
 ## Cooperative positioning
-- [Low-Cost GPS-Aided LiDAR State Estimation and Map Building](20200106/README.md)
+- [TBDg](20200106/README.md)
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
