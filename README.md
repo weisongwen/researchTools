@@ -52,7 +52,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [NCLT Dataset:The University of Michigan North Campus Long-Term Vision and LIDAR Dataset.](http://robots.engin.umich.edu/nclt/)
 
 ## Laboratory in Navigation
-- [NAV Lab at Standford](http://web.stanford.edu/~gracegao/)
+<!-- - [NAV Lab at Standford](http://web.stanford.edu/~gracegao/)
 - [Senseable City Lab at MIT](http://senseable.mit.edu/)
 - [ASPIN at University of California, Irvine](http://aspin.eng.uci.edu/research.html)
 - [toronto AI Lab](http://www.cs.toronto.edu/~urtasun/)
@@ -60,13 +60,13 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [HKUST Aerial Robotics Group](http://uav.ust.hk/)
 - [RAM Lab in HKUST](https://ram-lab.com/)
 - [Robot Perception Lab](https://rpl.ri.cmu.edu/)
-- [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/)
+- [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/) -->
 
 
-<!-- | [NAV Lab at Standford](http://web.stanford.edu/~gracegao/) | [Senseable City Lab at MIT](http://senseable.mit.edu/) | [ASPIN at University of California, Irvine](http://aspin.eng.uci.edu/research.html) | [toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
+| [NAV Lab at Standford](http://web.stanford.edu/~gracegao/) | [Senseable City Lab at MIT](http://senseable.mit.edu/) | [ASPIN at University of California, Irvine](http://aspin.eng.uci.edu/research.html) | [Intelligent Positioning and Navigation Lab at PolyU](https://www.polyu-ipn-lab.com/) |
 | :---:  | :---:  | :---:  | :---:  |
 | [IRIS at ETHZ](https://www.iris.ethz.ch/) | [HKUST Aerial Robotics Group](http://uav.ust.hk/) | [RAM Lab in HKUST](https://ram-lab.com/) | [Robot Perception Lab](https://rpl.ri.cmu.edu/) |
-| [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/) | lab | lab | lab | -->
+| [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/) | [RPNG Lab at University of Delaware](https://robustfieldautonomylab.github.io/) | [State Key Lab of CAD&CG at Zhejiang University](http://www.cad.zju.edu.cn/home/gfzhang/) | [Toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
