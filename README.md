@@ -1,6 +1,4 @@
-# research_tools 
-
-## Abstract
+# Research_tools 
 This project contains some blogs, ideas, reviews and news related to sensor fusion and autonomous systems, e.g. autonomous driving and unmanned aerial vehicles.
 
 <!-- <p align="center">
@@ -12,14 +10,14 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 - [Endnote stuck probelm](https://www.zhihu.com/question/44969655/answer/415516847) 
 - [Word file recover](https://zhuanlan.zhihu.com/p/95040014)
-- [grammarly failed to detect word file](https://zhuanlan.zhihu.com/p/91414871)
-- [formula in word always bold](https://www.zhihu.com/question/46817938/answer/882984999)
-- [replacement for evernote:Nixnote](https://zhuanlan.zhihu.com/p/86701936)
+- [Grammarly failed to detect word file](https://zhuanlan.zhihu.com/p/91414871)
+- [Formula in word always bold](https://www.zhihu.com/question/46817938/answer/882984999)
+- [Replacement for evernote:Nixnote](https://zhuanlan.zhihu.com/p/86701936)
 - [Conference/Symposium/Journal on ITS](https://zhuanlan.zhihu.com/p/49662463)
 
 ### Sensor Fusion
 - [Weighted Least Square with code for GNSS](https://zhuanlan.zhihu.com/p/85872469)
-- [transformation in non-linear optimization](https://zhuanlan.zhihu.com/p/83120010)
+- [Transformation in non-linear optimization](https://zhuanlan.zhihu.com/p/83120010)
 - [Bundle Adjustment with Ceres](https://zhuanlan.zhihu.com/p/82986533)
 - [Factor Graph based Sensor Fusion (ASPN)](https://zhuanlan.zhihu.com/p/49500590)
 - [Graph Optimization](https://zhuanlan.zhihu.com/p/48182009)
@@ -32,8 +30,8 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 ### Coding
 
-- [debug ros node with GDB](GDB/README.md) 
-- [self-defined ROS msg](https://zhuanlan.zhihu.com/p/82381074)
+- [Debug ros node with GDB](GDB/README.md) 
+- [Self-defined ROS msg](https://zhuanlan.zhihu.com/p/82381074)
 - [Curve fitting with Ceres](https://zhuanlan.zhihu.com/p/82984902)
 - [Ceres Solver Introduction](https://zhuanlan.zhihu.com/p/82984902)
 - [GLOG, GFLAGS, Cmakelist](https://zhuanlan.zhihu.com/p/81854369)
@@ -66,7 +64,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 | [NAV Lab at Standford](http://web.stanford.edu/~gracegao/) | [Senseable City Lab at MIT](http://senseable.mit.edu/) | [ASPIN at University of California, Irvine](http://aspin.eng.uci.edu/research.html) | [Intelligent Positioning and Navigation Lab at PolyU](https://www.polyu-ipn-lab.com/) |
 | :---:  | :---:  | :---:  | :---:  |
 | [IRIS at ETHZ](https://www.iris.ethz.ch/) | [HKUST Aerial Robotics Group](http://uav.ust.hk/) | [RAM Lab in HKUST](https://ram-lab.com/) | [Robot Perception Lab](https://rpl.ri.cmu.edu/) |
-| [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/) | [RPNG Lab at University of Delaware](https://robustfieldautonomylab.github.io/) | [State Key Lab of CAD&CG at Zhejiang University](http://www.cad.zju.edu.cn/home/gfzhang/) | [Toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
+| [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/) | [RPNG Lab at University of Delaware](https://sites.udel.edu/robot/) | [State Key Lab of CAD&CG at Zhejiang University](http://www.cad.zju.edu.cn/home/gfzhang/) | [Toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
