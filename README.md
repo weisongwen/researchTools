@@ -42,6 +42,9 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 ## Industrial
 - [Kolmostar, GNSS](https://zhuanlan.zhihu.com/p/58346842)
+- [Applanix](https://www.applanix.com/products/posav.htm)
+- [Veth Research Associates](https://www.vethresearch.com/)
+- [NovAtel](https://www.novatel.com/products/span-gnss-inertial-systems/span-combined-systems/span-cpt/)
 
 ## Challenging Dataset
 - [UrbanLoco:A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes](https://advdataset2019.wixsite.com/advlocalization)
