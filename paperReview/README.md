@@ -6,8 +6,56 @@ Expect to read a paper per day.
 ## Content
 ### GNSS
 
-- [Endnote stuck probelm](https://www.zhihu.com/question/44969655/answer/415516847) 
+- **GNSS NLOS/Multipath**
+    - [Robust Positioning in the Presence of Multipath and NLOS Signals ](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20190034171.pdf) 
 
+- **GNSS Integrity**
+    - [Integrity of Laser-Based Feature Extraction and Data Association ](https://ieeexplore.ieee.org/document/7479746) 
+    - [Continuity Risk of Feature Extraction for Laser-Based Navigation](https://pdfs.semanticscholar.org/0959/b88975a369b9685357a710e2cfabfed86441.pdf?_ga=2.30687740.2123690660.1578646651-472082014.1564729936) 
+    - [Kalman Filter-based INS Monitor to Detect GNSS Spoofers Capable of Tracking Aircraft Position](https://ieeexplore.ieee.org/document/7479805) 
+    - [Integrity for GPS/LiDAR Fusion Utilizing a RAIM Framework](https://pdfs.semanticscholar.org/07fb/1f3a1b19a48d24bd78de37d40f6c14cee3e1.pdf?_ga=2.68308434.2123690660.1578646651-472082014.1564729936) 
+    - [Snapshot Residual and Kalman Filter based Fault Detection and Exclusion Schemes for Robust Railway Navigation](https://ieeexplore.ieee.org/document/7954171) 
+    - [Towards Navigation Safety for Autonomous Cars](https://www.insidegnss.com/auto/novdec17-JOERGER.pdf) 
+    
+
+- **GNSS RTK**
+
+    - **Tokyo University, Prof. Kubo**
+        - [Precise and Robust RTK-GNSS Positioning in Urban Environments with Dual-Antenna Configuration](https://www.mdpi.com/1424-8220/19/16/3586)
+        - [RTKLIB: An Open Source Program Package for GNSS Positioning](https://ieeexplore.ieee.org/document/7479746) [[Github](https://github.com/tomojitakasu/RTKLIB/tree/rtklib_2.4.3)] [[Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf)] [[Tutorial Demo](http://www.rtklib.com/rtklib_tutorial.htm)]
+
+    - **Tsinghua University, Prof. Lu mingquan**
+        - [Precise and Robust RTK-GNSS Positioning in Urban Environments with Dual-Antenna Configuration](https://www.mdpi.com/1424-8220/19/16/3586)
+    
+    - **Wuhan University, Prof. Li Bijun**
+        - [A Vision-assisted GNSS-RTK Ambiguity FixingMethod Considering Visual Lane Line Ambiguity](https://www.ion.org/plans/upload/PLANS20Program.pdf)
+    
+    - **Tongji University, TBD**
+        - [A Vision-assisted GNSS-RTK Ambiguity FixingMethod Considering Visual Lane Line Ambiguity](https://www.ion.org/plans/upload/PLANS20Program.pdf)
+    
+    - **SJTU University, Prof. Li Bijun**
+        - [A Graph Approach to Dynamic Fusion of Sensors](https://www.ion.org/plans/upload/PLANS20Program.pdf)
+    
+    - **Collections**
+        - [Deep urban unaided precise GNSS vehicle positioning](https://arxiv.org/pdf/1906.09539.pdf)
+        - [RTK: Where Every GNSS Matters](https://www.unoosa.org/pdf/icg/2014/wg/wgb10.pdf)
+
+- **GNSS SPP/PPP with FGO and Robust Model**
+
+    - **Tim Pfeifer, Technique University of Chemniz, German**
+        - [Incrementally learned Mixture Models for GNSS Localization](https://www.tu-chemnitz.de/etit/proaut/publications/pfeifer19_IV.pdf)
+        - [Expectation-Maximization for Adaptive Mixture Models in Graph Optimization](https://www.tu-chemnitz.de/etit/proaut/publications/pfeifer19_ICRA.pdf)
+        - [Robust Sensor Fusion with Self-tuning Mixture Models](https://www.tu-chemnitz.de/etit/proaut/publications/IROS2018.pdf)
+
+    - **Ryan Watson, West Viginia University**
+        - [Robust Incremental State Estimation through Covariance Adaptation](https://arxiv.org/pdf/1910.05382)
+        - [Uncertainty Model Estimation in an Augmented Data Space for Robust State Estimation](https://arxiv.org/pdf/1908.04372)
+        - [Enabling Robust State Estimation through Measurement Error Covariance Adaptation](https://arxiv.org/pdf/1906.04055)
+        - [Batch Measurement Error Covariance Estimation for Robust Localization](https://www.researchgate.net/profile/Ryan_Watson7/publication/328643146_Batch_Measurement_Error_Covariance_Estimation_for_Robust_Localization/links/5bdb652ea6fdcc3a8db6d7ee/Batch-Measurement-Error-Covariance-Estimation-for-Robust-Localization.pdf)
+        - [Evaluation of kinematic precise point positioning convergence with an incremental graph optimizer](https://arxiv.org/pdf/1804.04197)
+        - [Robust Navigation In GNSS Degraded Environment Using Graph Optimization](https://arxiv.org/pdf/1806.08899)
+        - [Flight Data Assessment of Tightly-Coupled PPP/INS using Real-Time Products](https://web.statler.wvu.edu/~gross/docs/IEEE_AESSM_TightPPP_INS_wRTGxGDGPS_R2.pdf)
+    
 ### LiDAR SLAM
 - **LOAM**
     - [LOAM: Lidar Odometry and Mapping in Real-time](http://www.roboticsproceedings.org/rss10/p07.pdf) 

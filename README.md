@@ -36,6 +36,8 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [Ceres Solver Introduction](https://zhuanlan.zhihu.com/p/82984902)
 - [GLOG, GFLAGS, Cmakelist](https://zhuanlan.zhihu.com/p/81854369)
 - [Github: manage your code with Github](coding/GithubUsage/README.md)
+- [show/plot trajectory in rviz with google map/openstreet map as background](https://github.com/gareth-cross/rviz_satellite)
+
 
 ### Paper Reviewing
 - [Paper reviewing with ideas and comments](paperReview/README.md) 
