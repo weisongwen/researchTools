@@ -30,13 +30,15 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 ### Coding
 
-- [Debug ros node with GDB](GDB/README.md) 
+- [Debug ros node with GDB](coding/GDB/README.md) 
 - [Self-defined ROS msg](https://zhuanlan.zhihu.com/p/82381074)
 - [Curve fitting with Ceres](https://zhuanlan.zhihu.com/p/82984902)
 - [Ceres Solver Introduction](https://zhuanlan.zhihu.com/p/82984902)
 - [GLOG, GFLAGS, Cmakelist](https://zhuanlan.zhihu.com/p/81854369)
 - [Github: manage your code with Github](coding/GithubUsage/README.md)
 - [show/plot trajectory in rviz with google map/openstreet map as background](https://github.com/gareth-cross/rviz_satellite)
+- [VS Code Auto-completion](coding/VS_Code/README.md) 
+
 
 
 ### Paper Reviewing

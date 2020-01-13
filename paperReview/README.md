@@ -6,6 +6,10 @@ Expect to read a paper per day.
 ## Content
 ### GNSS
 
+- **GNSS Overall Technology**
+    - [RTK: Where Every GNSS Matters](https://www.unoosa.org/pdf/icg/2014/wg/wgb10.pdf)
+    - [GNSS Technique](gnss_technique/README.md)
+
 - **GNSS NLOS/Multipath**
     - [Robust Positioning in the Presence of Multipath and NLOS Signals ](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20190034171.pdf) 
 
@@ -38,8 +42,6 @@ Expect to read a paper per day.
     
     - **Collections**
         - [Deep urban unaided precise GNSS vehicle positioning](https://arxiv.org/pdf/1906.09539.pdf)
-        - [RTK: Where Every GNSS Matters](https://www.unoosa.org/pdf/icg/2014/wg/wgb10.pdf)
-        - [GNSS Technique](gnss_technique/README.md)
 
 - **GNSS SPP/PPP with FGO and Robust Model**
 
