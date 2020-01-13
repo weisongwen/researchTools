@@ -38,6 +38,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [Github: manage your code with Github](coding/GithubUsage/README.md)
 - [show/plot trajectory in rviz with google map/openstreet map as background](https://github.com/gareth-cross/rviz_satellite)
 - [VS Code Auto-completion](coding/VS_Code/README.md) 
+- [Eigen bug unsupported files cannot be found](https://zhuanlan.zhihu.com/p/102604655) 
 
 
 
