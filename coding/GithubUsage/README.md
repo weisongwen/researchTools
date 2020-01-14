@@ -31,6 +31,11 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     ```
     $ git push -u origin master
     ```
+- **Drag the latest files from the remote respository**
+    - **step 1: pull all**
+    ```
+    $ git pull origin master
+    ```
 ### Reference
 1. [A tutorial for Git and GitLab](https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A%20Tutorial%20for%20GitHub.pdf)
 2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf)
