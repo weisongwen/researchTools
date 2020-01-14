@@ -37,10 +37,10 @@ push "e" and get into the vim to set the following
    16  sudo apt-get update
     ```
 
-<!-- ### Reference
-1. [A tutorial for Git and GitLab](https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A%20Tutorial%20for%20GitHub.pdf)
-2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf)
- -->
+### Reference
+1. [RMB 50, help to install the ubuntu remotely](https://detail.tmall.com/item.htm?id=599552476862&spm=a1z09.2.0.0.41c82e8dZDKFCA&_u=e2eoug0q53ca)
+<!-- 2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf) -->
+
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
