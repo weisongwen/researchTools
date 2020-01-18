@@ -41,6 +41,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [Eigen bug unsupported files cannot be found](https://zhuanlan.zhihu.com/p/102604655) 
 - [Ubuntu Install](coding/ubuntuInstall/README.md) 
 - [write data to csv using C++](coding/data2csv/README.md) 
+- [Evaluation SLAM or sensor fusion using EVO](coding/evo/README.md) 
 
 
 
