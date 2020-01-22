@@ -38,7 +38,7 @@ Expect to read a paper per day.
         - [A Vision-assisted GNSS-RTK Ambiguity FixingMethod Considering Visual Lane Line Ambiguity](https://www.ion.org/plans/upload/PLANS20Program.pdf)
     
     - **SJTU University, Prof. Li Bijun**
-        - [A Graph Approach to Dynamic Fusion of Sensors](https://www.ion.org/plans/upload/PLANS20Program.pdf)
+        - [A Graph Approach to Dynamic Fusion of Sensors](https://www.ion.org/plans/upload/PLANS20Program.pdf), by Qianxun
     
     - **Collections**
         - [Deep urban unaided precise GNSS vehicle positioning](https://arxiv.org/pdf/1906.09539.pdf)
