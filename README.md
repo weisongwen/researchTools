@@ -48,6 +48,9 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [Install Google Earth in ubuntu](https://linuxconfig.org/how-to-install-google-earth-on-ubuntu-18-04-bionic-beaver-linux)    
 - [C++ Class from Peking University](https://www.bilibili.com/video/av10046030/?p=1)    
 - [ros node link rtklib error](https://zhuanlan.zhihu.com/p/104385648)  
+- [rtklib file cannot link c++ library](https://zhuanlan.zhihu.com/p/104395633/edit)  
+
+
 
 
 
