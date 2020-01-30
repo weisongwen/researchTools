@@ -47,6 +47,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [Coordinate systems of OpenCv, CV::Mat at(), cv2::Point](https://blog.csdn.net/wangxuwen2/article/details/52443978)   
 - [Install Google Earth in ubuntu](https://linuxconfig.org/how-to-install-google-earth-on-ubuntu-18-04-bionic-beaver-linux)    
 - [C++ Class from Peking University](https://www.bilibili.com/video/av10046030/?p=1)    
+- [ros node link rtklib error](https://zhuanlan.zhihu.com/p/104385648)  
 
 
 
