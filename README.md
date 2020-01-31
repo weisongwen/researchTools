@@ -49,11 +49,8 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [C++ Class from Peking University](https://www.bilibili.com/video/av10046030/?p=1)    
 - [ros node link rtklib error](https://zhuanlan.zhihu.com/p/104385648)  
 - [rtklib file cannot link c++ library](https://zhuanlan.zhihu.com/p/104395633/edit)  
-
-
-
-
-
+- [Difference between SPP, DGPS, RTK and PPP](https://blog.csdn.net/foreverhuylee/article/details/25693893) 
+- [remove the re-declaration of showmsg, settspan, settime in application node](https://zhuanlan.zhihu.com/p/104488765) 
 
 
 ### Paper Reviewing
