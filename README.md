@@ -47,10 +47,11 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [Coordinate systems of OpenCv, CV::Mat at(), cv2::Point](https://blog.csdn.net/wangxuwen2/article/details/52443978)   
 - [Install Google Earth in ubuntu](https://linuxconfig.org/how-to-install-google-earth-on-ubuntu-18-04-bionic-beaver-linux)    
 - [C++ Class from Peking University](https://www.bilibili.com/video/av10046030/?p=1)    
-- [ros node link rtklib error](https://zhuanlan.zhihu.com/p/104385648)  
-- [rtklib file cannot link c++ library](https://zhuanlan.zhihu.com/p/104395633/edit)  
+- [ROS node link rtklib error](https://zhuanlan.zhihu.com/p/104385648)  
+- [RTKLIB file cannot link c++ library](https://zhuanlan.zhihu.com/p/104395633/edit)  
 - [Difference between SPP, DGPS, RTK and PPP](https://blog.csdn.net/foreverhuylee/article/details/25693893) 
-- [remove the re-declaration of showmsg, settspan, settime in application node](https://zhuanlan.zhihu.com/p/104488765) 
+- [Remove the re-declaration of showmsg, settspan, settime in application node](https://zhuanlan.zhihu.com/p/104488765) 
+- [Remove the relativitic effects for GNSS position estimation](https://zhuanlan.zhihu.com/p/104713783) 
 
 
 ### Paper Reviewing
