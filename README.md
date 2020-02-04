@@ -52,6 +52,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [Difference between SPP, DGPS, RTK and PPP](https://blog.csdn.net/foreverhuylee/article/details/25693893) 
 - [Remove the re-declaration of showmsg, settspan, settime in application node](https://zhuanlan.zhihu.com/p/104488765) 
 - [Remove the relativitic effects for GNSS position estimation](https://zhuanlan.zhihu.com/p/104713783) 
+- [Enable BeiDou Satellite System in RTKLIB](https://zhuanlan.zhihu.com/p/105019922)
 
 
 ### Paper Reviewing
