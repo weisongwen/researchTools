@@ -54,7 +54,8 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [Remove the relativitic effects for GNSS position estimation](https://zhuanlan.zhihu.com/p/104713783) 
 - [Enable BeiDou Satellite System in RTKLIB](https://zhuanlan.zhihu.com/p/105019922)
 - [get access to high frequency empherical data, use 1s data, otherwise, the measurements from station will be not enough](https://www.geodetic.gov.hk/en/satref/welcome.htm)
-- [https://zhuanlan.zhihu.com/p/106631772](https://www.geodetic.gov.hk/en/satref/welcome.htm)
+- [get the covariance matrix after optimization](https://zhuanlan.zhihu.com/p/106631772)
+- [get residuals from Ceres-solver after factor graph optimization](https://zhuanlan.zhihu.com/p/106984063)
 
 ### Paper Reviewing
 - [Paper reviewing with ideas and comments](paperReview/README.md) 
