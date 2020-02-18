@@ -42,6 +42,9 @@ Expect to read a paper per day.
     
     - **Collections**
         - [Deep urban unaided precise GNSS vehicle positioning](https://arxiv.org/pdf/1906.09539.pdf)
+        - [Prediction of RTK-GNSS Performance in Urban Environments Using a 3D model and Continuous LoS Method](20200218/README.md)
+    - **LAMBDA Algorithms and its variants**
+        - [On the Best Integer Equivariant Estimator for Low-cost Single-frequency Multi-GNSS RTK Positioning](20200217/README.md)
 
 - **GNSS SPP/PPP with FGO and Robust Model**
 
