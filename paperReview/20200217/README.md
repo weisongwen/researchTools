@@ -13,13 +13,12 @@ Peter J.G. Teunisse  is currently a Professor of geodesy and navigation, and the
   <img width="712pix" src="framework.png">
 </p>
 
-<p align="center">
-  <img width="712pix" src="result1.png">
-</p>
 
 ## comments
-This is the work from Prof. Kubo about employing the 3D building models to help the GNSS RTK by detecting the LOS satellites. This is only a preliminary result.
+This is the work from Prof. Peter J.G. Teunisse. Instead of get the integer solution based on the conventional LAMBDA algorithm, this paper proposes to weighting average over the several possible float solutions.
 
-**Advantage**: fix rate is improved accordingly.
+**Advantage**: 
+when fix rate is high, similar performance is obtained, compared with the conventional LAMBDA algorithm.
+when the fix rate is low, better performance is obtained, compared with the conventional LAMBDA algorithm.
 **Question**: 
-- Q1: use the 3D building model in a more intelligent way? employ the 3D building model during the LAMBDA algorithm
+- Q1: 

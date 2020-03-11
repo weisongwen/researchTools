@@ -36,6 +36,21 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     ```
     $ git pull origin master
     ```
+- **generate new branch and push code to new branch**
+    - **step 1: generate branch and push code**
+    ```
+    git branch test      (新建一个名称为"test"的分支)
+    git checkout test      (从master切换到分支test下)
+    git add .      
+    git commit -m "描述"
+    git push -u origin test      (将修改后的文件上传到github中)
+    ```
+    - **step 2: merge branch**
+    ```  
+    git checkout master     (从分支test下切换到主分支master下)
+    git merge origin/xxx      (合并xxx分支到主分支，此处的xxx为test)
+    git push -u origin master      (上传到github)
+    ```
 ### Reference
 1. [A tutorial for Git and GitLab](https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A%20Tutorial%20for%20GitHub.pdf)
 2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf)
