@@ -56,6 +56,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [get access to high frequency empherical data, use 1s data, otherwise, the measurements from station will be not enough](https://www.geodetic.gov.hk/en/satref/welcome.htm)
 - [get the covariance matrix after optimization](https://zhuanlan.zhihu.com/p/106631772)
 - [get residuals from Ceres-solver after factor graph optimization](https://zhuanlan.zhihu.com/p/106984063)
+- [split a single rosbag into several one or cut the rosbag file](https://answers.ros.org/question/99711/how-to-split-a-recorded-rosbag-file/)
 
 ### Paper Reviewing
 - [Paper reviewing with ideas and comments](paperReview/README.md) 
