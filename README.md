@@ -60,6 +60,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 - [CPP-00 Modern C++:course Introduction and Hello World (2018,Igor)](coding/CPP00/README.md)
 - [CPP-01 Modern C++:Variables, Basic types, Control structure (2018,Igor)](coding/CPP01/README.md)
+- [CPP-02 Modern C++:Compilation, Debugging, Functions, Headers/Source, Libraries, Cmake (2018,Igor)](coding/CPP02/README.md)
 
 
 ### Paper Reviewing
