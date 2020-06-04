@@ -62,6 +62,11 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [CPP-01 Modern C++:Variables, Basic types, Control structure (2018,Igor)](coding/CPP01/README.md)
 - [CPP-02 Modern C++:Compilation, Debugging, Functions, Headers/Source, Libraries, Cmake (2018,Igor)](coding/CPP02/README.md)
 - [CPP-03 Modern C++: Google Test, Namespace, Class, (2018,Igor)](coding/CPP03/README.md)
+- [warning:  Clock skew detected ros](https://blog.csdn.net/yuzaipiaofei/article/details/78113361)
+```
+ find . -type f | xargs touch
+```
+
 
 
 ### Paper Reviewing
