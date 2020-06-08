@@ -66,7 +66,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 ```
  find . -type f | xargs touch
 ```
-- [get ublox solution from CSV, read CSV using C++](https://blog.csdn.net/yuzaipiaofei/article/details/78113361)
+- [get ublox solution from CSV, read CSV using C++](coding/data2csv/README.md)
 
 
 
