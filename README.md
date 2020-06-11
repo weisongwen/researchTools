@@ -67,6 +67,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
  find . -type f | xargs touch
 ```
 - [get ublox solution from CSV, read CSV using C++](coding/data2csv/README.md)
+- [vector operation: reduce vector based on the other vector, ](coding/vectorOperation/README.md)
 
 
 
