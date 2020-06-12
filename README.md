@@ -72,6 +72,9 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [deliver ros handle from main cpp to any cpp from a library](coding/deliverROSHandle/README.md)
 - [synchronize, allign, simultaneously subscribe several ros topics using messages filter](coding/rosmessageFilter/README.md)
 
+- [map operation](coding/map_operation/README.md)
+
+
 
 
 ### Paper Reviewing
