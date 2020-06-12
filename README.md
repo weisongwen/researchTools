@@ -73,7 +73,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [synchronize, allign, simultaneously subscribe several ros topics using messages filter](coding/rosmessageFilter/README.md)
 
 - [map operation](coding/map_operation/README.md)
-- [code notes for VINS](coding/code notes for VINS/README.md)
+- [code notes for VINS](coding/code_notes_for_VINS/README.md)
 
 
 
