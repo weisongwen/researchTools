@@ -37,7 +37,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [GLOG, GFLAGS, Cmakelist](https://zhuanlan.zhihu.com/p/81854369)
 - [Github: manage your code with Github](coding/GithubUsage/README.md)
 - [show/plot trajectory in rviz with google map/openstreet map as background](https://github.com/gareth-cross/rviz_satellite)
-- [VS Code Auto-completion](coding/VS_Code/README.md) 
+- [VS Code Auto-completion, useful tools in vs code, visual studio code, VS-code](coding/VS_Code/README.md) 
 - [Eigen bug unsupported files cannot be found](https://zhuanlan.zhihu.com/p/102604655) 
 - [Ubuntu Install](coding/ubuntuInstall/README.md) 
 - [write data to csv using C++](coding/data2csv/README.md) 
@@ -71,6 +71,9 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [rosbag operation, commands ](coding/rosbagOperation/README.md)
 - [deliver ros handle from main cpp to any cpp from a library](coding/deliverROSHandle/README.md)
 - [synchronize, allign, simultaneously subscribe several ros topics using messages filter](coding/rosmessageFilter/README.md)
+- [C++ blogs, main operators in C++, const, static](https://zhaostu4.github.io/2019/11/28/%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB-C++%E5%9F%BA%E7%A1%80%E7%B4%A2%E5%BC%95/)
+
+
 
 
 
