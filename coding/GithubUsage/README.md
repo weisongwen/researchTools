@@ -51,6 +51,16 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     git merge origin/xxx      (合并xxx分支到主分支，此处的xxx为test)
     git push -u origin master      (上传到github)
     ```
+- **delete the lcoal and remote branchs**
+    - **remote branch**
+    ```
+    git push origin --delete your_remote_branch
+    ```
+    - **local branch**
+    ```
+    git branch -d your_local_branch
+    git branch -D your_local_branch
+    ```
 ### Reference
 1. [A tutorial for Git and GitLab](https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A%20Tutorial%20for%20GitHub.pdf)
 2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf)
