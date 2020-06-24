@@ -72,6 +72,8 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [deliver ros handle from main cpp to any cpp from a library](coding/deliverROSHandle/README.md)
 - [synchronize, allign, simultaneously subscribe several ros topics using messages filter](coding/rosmessageFilter/README.md)
 - [C++ blogs, main operators in C++, const, static](https://zhaostu4.github.io/2019/11/28/%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB-C++%E5%9F%BA%E7%A1%80%E7%B4%A2%E5%BC%95/)
+- [latitude, longitude, altitude to ECEF conversion](https://www.oc.nps.edu/oc2902w/coord/llhxyz.htm?source=post_page---------------------------)
+
 
 
 

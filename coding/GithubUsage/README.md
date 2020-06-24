@@ -13,7 +13,7 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     $ git config --global user.name "John Smith"
     $ git config --global user.email jsmith@seas.upenn.edu
     ```
-    if you want to use a different name/email for a specific project, you cna change it just for that package. use the above commands, but leave out the *--global*
+    if you want to use a different name/email for a specific project, you can change it just for that package. use the above commands, but leave out the *--global*
 - **connect the respository in the internet**
     ```
     $ git remote add origin git@git.assembla.com:portfolio/space.space_name.git
