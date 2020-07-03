@@ -1,7 +1,7 @@
 # Get jacobian matrix from factor graph optimization in ceres-solver
 
-## get jacobian
-- **Solution 1**
+## get jacobian in Ceres solver 
+- **Solution 1: get jacobian in Ceres solver by evaluate the whole problem**
     
     ```C++
     #if enable_Jacobian_cal
@@ -31,8 +31,64 @@
     #endif
 
     ```
+    - **Solution 2: get jacobian in Ceres solver by evaluate a single factor**
     
-- **define states in ceres-solver for factor graph optimization**
+    ```C++
+    /* get the analytical Jacobian derived in ProjectionTwoFrameOneCamFactor */
+    #if enable_Jacobian_cal_anallitical
+    factorlist = factorlist_tmp;
+    if(factorlist.size())
+    {
+        /** set up parameters */
+        std::vector<double*> Params = {para_Pose[factorlist.back()->imu_i],
+                                        para_Pose[factorlist.back()->imu_j],
+                                        para_Ex_Pose[0],
+                                        para_Feature[factorlist.back()->feature_index],
+                                        para_Td[0]};
+
+        // factorlist.back()->check(Params.data());
+
+        /** set up residuals */
+        double ResidualAnalytic[2];
+
+        /** set up jecobians */
+        std::vector<int> BlockSizes = factorlist.back()->parameter_block_sizes();
+        double **JacAnalytic = new double *[BlockSizes.size()];
+
+        Eigen::Matrix<double, 2, 7, Eigen::RowMajor> JacP1An, JacP2An, JacPexAn;
+        Eigen::Matrix<double, 2, 1> JacDepAn, JacTdAn;
+        JacAnalytic[0] = JacP1An.data();
+        JacAnalytic[1] = JacP2An.data();
+        JacAnalytic[2] = JacPexAn.data();
+        JacAnalytic[3] = JacDepAn.data();
+        JacAnalytic[4] = JacTdAn.data();
+
+        /** query cost functions */
+        factorlist.back()->Evaluate(Params.data(), ResidualAnalytic, JacAnalytic);
+
+        /** print results */
+        std::cout << "## Analytical cost function ## \nResiduals: " << ResidualAnalytic[0] << " " << ResidualAnalytic[1] << std::endl;
+        std::cout << "Jacobians An:\n";
+        std::cout << JacP1An << std::endl;
+        std::cout << JacP2An << std::endl;
+        std::cout << JacPexAn << std::endl;
+        std::cout << JacDepAn.transpose() << std::endl;
+        std::cout << JacTdAn.transpose() << std::endl;
+
+        Eigen::Matrix<double,2,1> residualMat;
+        residualMat << ResidualAnalytic[0], ResidualAnalytic[1];
+        Eigen::Matrix<double,6,1> delta_P2;
+        Eigen::Matrix<double,2,6> JacP2An_26;
+        JacP2An_26 = JacP2An.block<2,6>(0,0);
+        // delta_P2 = (JacP2An.transpose() * JacP2An + (JacP2An.transpose() * JacP2An).diagonal()).inverse() * JacP2An.transpose() * residualMat;
+        delta_P2 = (JacP2An_26.transpose() * JacP2An_26 ).inverse() * JacP2An_26.transpose() * residualMat;
+        std::cout << "delta_P2- > " <<delta_P2 << std::endl;
+    }
+    #endif // enable_Jacobian_cal_anallitical
+
+    ```
+    
+## **define states in ceres-solver for factor graph optimization**
     **solution 1**
     ```C++
     double state_array[length][5]; 
@@ -98,6 +154,17 @@
 
     }
     ```
+## **define new dynamic array**
+```c++
+/* define a array with size a[5][~], this can be very useful in Ceres-solver-based factor graph optimization when the size of state to be optimize is not constant (for example, the RTK calculation in GraphGNSSLib) */
+double **parameter_temp = new double *[5]; // five parts
+parameter_temp[0] = new double[1 * 7]; // residual vs pose i
+parameter_temp[1] = new double[1 * 7]; // residual vs pose j
+parameter_temp[2] = new double[1 * 7]; // residual vs extrinsic pose
+parameter_temp[3] = new double[1 * 1]; // residual vs feature depth
+parameter_temp[4] = new double[1 * 1]; // residual vs Td
+factorlist.back()->check(parameter_temp);
+```
 
 ### Reference
 1. [Visualization.cpp in VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/vins_estimator/src/utility/visualization.cpp#L161)
