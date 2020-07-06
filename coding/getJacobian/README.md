@@ -1,4 +1,4 @@
-# Get jacobian matrix from factor graph optimization in ceres-solver
+# Get jacobian matrix from factor graph optimization in ceres-solver, dynamic array definition and initialization
 
 ## get jacobian in Ceres solver 
 - **Solution 1: get jacobian in Ceres solver by evaluate the whole problem**
