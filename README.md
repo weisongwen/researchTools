@@ -76,8 +76,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 - [get jacobian matrix from Ceres-solver optimization, define states in ceres-solver, new array memory, initialize array](coding/getJacobian/README.md)
 
-
-
+- [bug:signbit' was not declared in this scope](https://zhuanlan.zhihu.com/p/157710045)
 
 
 
