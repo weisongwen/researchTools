@@ -36,6 +36,20 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     ```
     $ git pull origin master
     ```
+
+    - **[got conflict with the cloud end](https://blog.csdn.net/asty9000/article/details/83591142)** 
+    ```bash
+    #temporarily save the content causing the conflict
+    git stash
+    #pull the latest code from the cloud end
+    git pull origin master
+    #recover the content causing the conflict
+    git stash pop stash@{0}
+    # fix the conflict by hand checking
+
+    # clear the content 
+    git stash clear
+    ```
 - **generate new branch and push code to new branch**
     - **step 1: generate branch and push code**
     ```
