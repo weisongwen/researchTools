@@ -50,6 +50,13 @@ for (unsigned int i = 0; i < ids.size(); i++)
     cur_id_pts.insert(make_pair(ids[i], pts[i]));
 }
 ```
+- erase the first element in the vector
+```C++
+std::vector<double> vecTmp;
+std::vector<double>::iterator iter;
+iter = vecTmp.begin();
+vecTmp.erase(iter);
+```
 ### Reference
 1. [Visualization.cpp in VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/vins_estimator/src/utility/visualization.cpp#L161)
 <!-- 2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf) -->
