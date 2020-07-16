@@ -61,7 +61,14 @@ Expect to read a paper per day.
         - [Evaluation of kinematic precise point positioning convergence with an incremental graph optimizer](https://arxiv.org/pdf/1804.04197)
         - [Robust Navigation In GNSS Degraded Environment Using Graph Optimization](https://arxiv.org/pdf/1806.08899)
         - [Flight Data Assessment of Tightly-Coupled PPP/INS using Real-Time Products](https://web.statler.wvu.edu/~gross/docs/IEEE_AESSM_TightPPP_INS_wRTGxGDGPS_R2.pdf)
-    
+
+### GNSS/INS Integration
+
+- [LiDAR_GNSS_Mapping with GNSS/INS integration](https://github.com/ZhuangYanDLUT/lidar_gnss_mapping/blob/master/lidar_gnss_mapping/src/gps_ins_node.cpp)
+- [GNSSINSLib](https://github.com/weisongwen/GNSSINSLib)
+- [pose ekf with loosely coupled integration of GNSS/INS/Mag/Baro](https://github.com/libing64/pose_ekf)
+
+
 ### LiDAR SLAM
 - **LOAM**
     - [LOAM: Lidar Odometry and Mapping in Real-time](http://www.roboticsproceedings.org/rss10/p07.pdf) 
