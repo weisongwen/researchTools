@@ -67,6 +67,7 @@ Expect to read a paper per day.
 - [LiDAR_GNSS_Mapping with GNSS/INS integration](https://github.com/ZhuangYanDLUT/lidar_gnss_mapping/blob/master/lidar_gnss_mapping/src/gps_ins_node.cpp)
 - [GNSSINSLib](https://github.com/weisongwen/GNSSINSLib)
 - [pose ekf with loosely coupled integration of GNSS/INS/Mag/Baro](https://github.com/libing64/pose_ekf)
+- [GNSS INS integration using factor graph optimization from Tim, the INS calculation is based on SINS](https://github.com/weisongwen/ION_PLANS_2020)
 
 
 ### LiDAR SLAM
