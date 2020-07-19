@@ -100,13 +100,25 @@ Expect to read a paper per day.
 ### Visual/inertial SLAM
 
 - [VISUAL-INERTIAL NAVIGATION: A CONCISE REVIEW](20200107/README.md)
+- [GSLAM (A General SLAM Framework and BenchMark)](https://github.com/zdzhaoyong/GSLAM)
+- [Visual SLAM Based on Dynamic Object Removal](https://ieeexplore.ieee.org/document/8961397)
+
 
 ### Sensor Fusion Framework
 - [Tightly Coupled 3D Lidar Inertial Odometry and Mapping](https://arxiv.org/pdf/1904.06993.pdf) [[Code](https://github.com/hyye/lio-mapping)]
 - [A Robust and Versatile Monocular Visual-Inertial State Estimator](https://arxiv.org/pdf/1708.03852.pdf) [[Code](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)]
+-[GNSS/INS/LiDAR-SLAM Integrated Navigation System Based on Graph Optimization](https://www.mdpi.com/2072-4292/11/9/1009/pdf)
+
+### Improve factor graph optimization
+- [MASAT intial guess for SLAM](https://github.com/karoly-hars/MASAT_IG_for_SLAM) [[Code](https://github.com/karoly-hars/MASAT_IG_for_SLAM)]
+
+### Autonomous Driving
+- [Stanford Self Driving Car Code](https://github.com/emmjaykay/stanford_self_driving_car_code) [[Code](https://github.com/emmjaykay/stanford_self_driving_car_code)]
 
 ## Cooperative positioning
 - [TBD](20200106/README.md)
+- [Collaborative SLAM Patrik Schmuck from ETHZ](https://scholar.google.com/citations?hl=en&user=ssNhoMgAAAAJ&sortby=pubdate&view_op=list_works&citft=1&citft=2&email_for_op=wenwsrobo%40gmail.com&gmla=AJsN-F7zDqQ26Xyb5SOvvZMzQlZ7gEPwOjOvfCCHn44Y5UrwfQwD23SA6xWXS1w5GfQ_ma0FPkHUUJuvXAnCQGQgMW3F-JoprpaLQzpMIKPshIDrFa4IlQNsjHrDccubOyx506EtYcNrRwAyI_eIQMTdL3I3GMltZ4fTiZdan2FM0JJRk6vT7QVk9gH62s8aAKjetgffjc3504CLe3tytTTet85RS21RUKjygkZ9LGnezItmxqyoBgs8VUeMvUrQpbtZdK3Oi97d)
+
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.

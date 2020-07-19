@@ -78,6 +78,9 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 - [bug:signbit' was not declared in this scope](https://zhuanlan.zhihu.com/p/157710045)
 - [switch between Qt 4 and Qt 5](https://blog.csdn.net/lch_vison/article/details/80899039)
+- [plot Gaussian mixture model based on residuals in matlab](coding/plotGMM/README.md)
+- [convert nmea to latitude, longitude, altitude from ublox](coding/convert_nmea/README.md)
+
 
 
 
