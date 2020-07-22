@@ -80,8 +80,8 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [switch between Qt 4 and Qt 5](https://blog.csdn.net/lch_vison/article/details/80899039)
 - [plot Gaussian mixture model based on residuals in matlab](coding/plotGMM/README.md)
 - [convert nmea to latitude, longitude, altitude from ublox](coding/convert_nmea/README.md)
-
-
+- [pythonRobotics](https://github.com/AtsushiSakai/PythonRobotics)
+- [using git bash in windows to manage github code](https://git-scm.com/download/win)
 
 
 ### Paper Reviewing and Code Implementation
