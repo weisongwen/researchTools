@@ -82,6 +82,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [convert nmea to latitude, longitude, altitude from ublox](coding/convert_nmea/README.md)
 - [pythonRobotics](https://github.com/AtsushiSakai/PythonRobotics)
 - [using git bash in windows to manage github code](https://git-scm.com/download/win)
+- [using SE(3) and SO(3) in lie groups](https://blog.csdn.net/xiaoxiaowenqiang/article/details/78991190?utm_source=blogxgwz6)
 
 
 ### Paper Reviewing and Code Implementation
