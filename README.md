@@ -117,6 +117,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 | :---:  | :---:  | :---:  | :---:  |
 | [IRIS at ETHZ](https://www.iris.ethz.ch/) | [HKUST Aerial Robotics Group](http://uav.ust.hk/) | [RAM Lab in HKUST](https://ram-lab.com/) | [Robot Perception Lab](https://rpl.ri.cmu.edu/) |
 | [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/) | [RPNG Lab at University of Delaware](https://sites.udel.edu/robot/) | [State Key Lab of CAD&CG at Zhejiang University](http://www.cad.zju.edu.cn/home/gfzhang/) | [Toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
+| [StachnissLab Photogrammetry & Robotics](https://www.ipb.uni-bonn.de/) | [TBD](https://sites.udel.edu/robot/) | [TBD](http://www.cad.zju.edu.cn/home/gfzhang/) | [Toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
