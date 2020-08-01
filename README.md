@@ -84,7 +84,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [using git bash in windows to manage github code](https://git-scm.com/download/win)
 - [using SE(3) and SO(3) in lie groups](https://blog.csdn.net/xiaoxiaowenqiang/article/details/78991190?utm_source=blogxgwz6)
 - [Generate visual navigation data for CARLA](https://github.com/IamWangYunKai/carla_py)
-- [awesome Vkisual SLAM](https://github.com/IamWangYunKai/carla_py)
+- [awesome Vkisual SLAM](https://github.com/tzutalin/awesome-visual-slam)
 
 
 ### Paper Reviewing and Code Implementation
