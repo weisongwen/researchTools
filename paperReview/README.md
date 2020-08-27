@@ -68,6 +68,8 @@ Expect to read a paper per day.
 - [GNSSINSLib](https://github.com/weisongwen/GNSSINSLib)
 - [pose ekf with loosely coupled integration of GNSS/INS/Mag/Baro](https://github.com/libing64/pose_ekf)
 - [GNSS INS integration using factor graph optimization from Tim, the INS calculation is based on SINS](https://github.com/weisongwen/ION_PLANS_2020)
+- [KalmanFilter-Vehicle-GNSS-INS from Bonn University](https://github.com/alirezaahmadi/KalmanFilter-Vehicle-GNSS-INS)
+- [Vision-based approach for GPS Localization Improvement in Semi-Obstructed Areas](https://github.com/alirezaahmadi/GNSS-AR)
 
 
 ### LiDAR SLAM
@@ -96,6 +98,16 @@ Expect to read a paper per day.
 - **LiDAR Camera Inertial Fusion** 
     - [LIC-Fusion: LiDAR-Inertial-Camera Odometry](https://arxiv.org/pdf/1909.04102.pdf) 
     - [LIPS: LiDAR-Inertial 3D Plane SLAM](https://www.researchgate.net/profile/Yulin_Yang3/publication/327514859_LIPS_LiDAR-Inertial_3D_Plane_SLAM/links/5b92ebdd299bf1473923ca77/LIPS-LiDAR-Inertial-3D-Plane-SLAM.pdf)
+    - [ndt_mapping_localization](https://github.com/melhousni/ndt_mapping_localization)
+    ```
+    C++ Implementation of the NDT mapping and localization algorithm for ADV on ROS.
+
+    Two packages available in this implementation :
+
+    vehicle_mapping : Pointcloud registration using the 3D NDT algorithm assisted by an EKF.
+    vehicle_localization : 6-DoF Localization using the 3D NDT algorithm assisted by an EKF.
+    ```
+    [ndt_mapping and matching from Autoware](https://github.com/rsasaki0109/ndt_mapping)
 
 ### Visual/inertial SLAM
 
