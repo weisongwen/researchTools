@@ -88,6 +88,9 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 - [LiDAR IMU calibration package based on motion, targetless calibration](https://github.com/APRIL-ZJU/lidar_IMU_calib)
 
+- [pointGrey camera and Xsense Mti 30 IMU sensor data collection](coding/camera_imu_collection/README.md)
+
+
 ### Paper Reviewing and Code Implementation
 - [Paper reviewing with ideas and comments](paperReview/README.md) 
 
