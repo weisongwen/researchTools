@@ -34,6 +34,8 @@
 ## How to calibrate IMU-Camera extrinsic parameters?
 kalibr_calibrate_imu_camera --target data/april_6x6.yaml --cam cam.yaml --imu xsens_imu.yaml --bag data/2020-09-06-16-26-30.bag --bag-from-to 10 50 --show-extraction
 - For reference: https://blog.csdn.net/u011178262/article/details/83316968
+- Interestingly, I found that had better directly put xsens_imu.yaml, cam.yaml into src/ instead of data/, but you can put bag data and target file into data/, I do not why but it really works.
+
 # My small sensor kit parameters:
 
 <p align="center">
@@ -113,9 +115,6 @@ cam0 (transformation from IMU to camera coordinates):
   rostopic: /camera/image_color
   timeshift_cam_imu: -0.02110350429911481
 ```
-Interestingly, I found that had better directly put xsens_imu.yaml, cam.yaml into src/ instead of data/, but you can put bag data and target file into data/, I do not why but it really works.
-
-
 
 ### Contact
 - Author: xiwei, PhD Candidate in Hong Kong Polytechnic University.
