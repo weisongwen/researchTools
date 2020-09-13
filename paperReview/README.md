@@ -70,6 +70,7 @@ Expect to read a paper per day.
 - [GNSS INS integration using factor graph optimization from Tim, the INS calculation is based on SINS](https://github.com/weisongwen/ION_PLANS_2020)
 - [KalmanFilter-Vehicle-GNSS-INS from Bonn University](https://github.com/alirezaahmadi/KalmanFilter-Vehicle-GNSS-INS)
 - [Vision-based approach for GPS Localization Improvement in Semi-Obstructed Areas](https://github.com/alirezaahmadi/GNSS-AR)
+- [Eagleye is an open-source software for vehicle localization utilizing GNSS and IMU](https://github.com/MapIV/eagleye)
 
 
 ### LiDAR SLAM
