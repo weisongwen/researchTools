@@ -1,4 +1,4 @@
-# calibration_IMUCamera
+# Calibration IMU&Camera
 
 ## How to get camera intrinsic parameters?
 -   There are two ways: 
@@ -115,8 +115,7 @@ cam0 (transformation from IMU to camera coordinates):
   rostopic: /camera/image_color
   timeshift_cam_imu: -0.02110350429911481
 ```
-<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
-=======
+
 # Our lab sensorkit parameters:
 
 <p align="center">
@@ -200,8 +199,7 @@ Imu transformed to rightcamera:
   rostopic: /right_camera/image_color
   timeshift_cam_imu: -0.030317139821607345
 ```
->>>>>>> add lab sensorkit extrinsics between stereo and imu
-
+```
 ### Contact
 - Author: xiwei, PhD Candidate in Hong Kong Polytechnic University.
 - Affiliation: [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/)
