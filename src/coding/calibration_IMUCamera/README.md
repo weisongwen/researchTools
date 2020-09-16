@@ -115,6 +115,92 @@ cam0 (transformation from IMU to camera coordinates):
   rostopic: /camera/image_color
   timeshift_cam_imu: -0.02110350429911481
 ```
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+=======
+# Our lab sensorkit parameters:
+
+<p align="center">
+  <img width="300pix" src="sk.jpg">
+</p>
+
+<p align="center">
+  <img width="300pix" src="sk1.jpg">
+</p>
+
+1. IMU parameters:
+   
+ ```
+#Accelerometers
+accelerometer_noise_density: 7.8406254052472424e-03   #Noise density (continuous-time)
+accelerometer_random_walk:   1.2967712609844757e-04   #Bias random walk
+
+#Gyroscopes
+gyroscope_noise_density:     7.4559162153988272e-03   #Noise density (continuous-time)
+gyroscope_random_walk:       7.7056440035720022e-05   #Bias random walk
+
+rostopic:                    /imu/data      #the IMU ROS topic
+update_rate:                 200.0      #Hz (for discretization of the values above)
+
+```
+
+2.  Left camera intrinsic param and extrinsic param with respect to IMU: 
+```
+leftcamera intrinsic:
+  cam_overlaps: []
+  camera_model: pinhole
+  distortion_coeffs: [-0.14185562666370247, 0.01553149264935834, 0.0035358753809967827,
+    0.0022665268408541793]
+  distortion_model: radtan
+  intrinsics: [1352.6597178550837, 1370.243033801338, 770.238742546927, 633.5841615263967]
+  resolution: [1920, 1200]
+  rostopic: /left_camera/image_color
+
+Imu transformed to leftcamera:
+  T_cam_imu:
+  - [0.9698686191774075, 0.2211808394762476, 0.10214645262314238, 0.00042125887490403196]
+  - [0.0712076786769201, 0.1436089214377962, -0.9870693715139367, -0.0014538492762019737]
+  - [-0.232989974102651, 0.9646012201589089, 0.1235320121895161, -0.00019286125782574484]
+  - [0.0, 0.0, 0.0, 1.0]
+  cam_overlaps: []
+  camera_model: pinhole
+  distortion_coeffs: [-0.14185562666370247, 0.01553149264935834, 0.0035358753809967827,
+    0.0022665268408541793]
+  distortion_model: radtan
+  intrinsics: [1352.6597178550837, 1370.243033801338, 770.238742546927, 633.5841615263967]
+  resolution: [1920, 1200]
+  rostopic: /left_camera/image_color
+  timeshift_cam_imu: -0.041354031903880546
+```
+3. Right camera intrinsic param and extrinsic param with respect to IMU: 
+
+```
+rightcamera intrinsic:
+  cam_overlaps: []
+  camera_model: pinhole
+  distortion_coeffs: [-0.07527954079035452, -0.25121839583312516, 0.010575320479691909,
+    0.006014166097368395]
+  distortion_model: radtan
+  intrinsics: [1328.5526527817062, 1363.1225245782555, 748.9659992133073, 625.2327375520196]
+  resolution: [1920, 1200]
+  rostopic: /right_camera/image_color
+
+Imu transformed to rightcamera:
+  T_cam_imu:
+  - [0.989874534109872, 0.04589887531024018, -0.13431939534563567, 0.0043542093011745]
+  - [-0.13516558455280892, 0.015844349277046588, -0.9906963315509363, -0.004290654068230252]
+  - [-0.04334364397763087, 0.998820429227016, 0.021887866170515635, 0.0011439425862900465]
+  - [0.0, 0.0, 0.0, 1.0]
+  cam_overlaps: []
+  camera_model: pinhole
+  distortion_coeffs: [-0.07527954079035452, -0.25121839583312516, 0.010575320479691909,
+    0.006014166097368395]
+  distortion_model: radtan
+  intrinsics: [1328.5526527817062, 1363.1225245782555, 748.9659992133073, 625.2327375520196]
+  resolution: [1920, 1200]
+  rostopic: /right_camera/image_color
+  timeshift_cam_imu: -0.030317139821607345
+```
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 
 ### Contact
 - Author: xiwei, PhD Candidate in Hong Kong Polytechnic University.

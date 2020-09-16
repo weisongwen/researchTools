@@ -15,6 +15,8 @@ void reduceVector(vector<cv::Point2f> &v, vector<uchar> status)
     v.resize(j);
 }
 ```
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+=======
 
 - initialize std::map using emplace_back()
 ```C++
@@ -57,6 +59,7 @@ std::vector<double>::iterator iter;
 iter = vecTmp.begin();
 vecTmp.erase(iter);
 ```
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 ### Reference
 1. [Visualization.cpp in VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/vins_estimator/src/utility/visualization.cpp#L161)
 <!-- 2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf) -->

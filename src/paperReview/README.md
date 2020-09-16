@@ -61,6 +61,9 @@ Expect to read a paper per day.
         - [Evaluation of kinematic precise point positioning convergence with an incremental graph optimizer](https://arxiv.org/pdf/1804.04197)
         - [Robust Navigation In GNSS Degraded Environment Using Graph Optimization](https://arxiv.org/pdf/1806.08899)
         - [Flight Data Assessment of Tightly-Coupled PPP/INS using Real-Time Products](https://web.statler.wvu.edu/~gross/docs/IEEE_AESSM_TightPPP_INS_wRTGxGDGPS_R2.pdf)
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+    
+=======
 
 ### GNSS/INS Integration
 
@@ -73,6 +76,7 @@ Expect to read a paper per day.
 - [Eagleye is an open-source software for vehicle localization utilizing GNSS and IMU](https://github.com/MapIV/eagleye)
 
 
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 ### LiDAR SLAM
 - **LOAM**
     - [LOAM: Lidar Odometry and Mapping in Real-time](http://www.roboticsproceedings.org/rss10/p07.pdf) 
@@ -99,6 +103,8 @@ Expect to read a paper per day.
 - **LiDAR Camera Inertial Fusion** 
     - [LIC-Fusion: LiDAR-Inertial-Camera Odometry](https://arxiv.org/pdf/1909.04102.pdf) 
     - [LIPS: LiDAR-Inertial 3D Plane SLAM](https://www.researchgate.net/profile/Yulin_Yang3/publication/327514859_LIPS_LiDAR-Inertial_3D_Plane_SLAM/links/5b92ebdd299bf1473923ca77/LIPS-LiDAR-Inertial-3D-Plane-SLAM.pdf)
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+=======
     - [ndt_mapping_localization](https://github.com/melhousni/ndt_mapping_localization)
     ```
     C++ Implementation of the NDT mapping and localization algorithm for ADV on ROS.
@@ -109,17 +115,26 @@ Expect to read a paper per day.
     vehicle_localization : 6-DoF Localization using the 3D NDT algorithm assisted by an EKF.
     ```
     [ndt_mapping and matching from Autoware](https://github.com/rsasaki0109/ndt_mapping)
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 
 ### Visual/inertial SLAM
 
 - [VISUAL-INERTIAL NAVIGATION: A CONCISE REVIEW](20200107/README.md)
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+=======
 - [GSLAM (A General SLAM Framework and BenchMark)](https://github.com/zdzhaoyong/GSLAM)
 - [Visual SLAM Based on Dynamic Object Removal](https://ieeexplore.ieee.org/document/8961397)
 
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 
 ### Sensor Fusion Framework
 - [Tightly Coupled 3D Lidar Inertial Odometry and Mapping](https://arxiv.org/pdf/1904.06993.pdf) [[Code](https://github.com/hyye/lio-mapping)]
 - [A Robust and Versatile Monocular Visual-Inertial State Estimator](https://arxiv.org/pdf/1708.03852.pdf) [[Code](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)]
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+
+## Cooperative positioning
+- [TBD](20200106/README.md)
+=======
 -[GNSS/INS/LiDAR-SLAM Integrated Navigation System Based on Graph Optimization](https://www.mdpi.com/2072-4292/11/9/1009/pdf)
 
 ### Improve factor graph optimization
@@ -132,6 +147,7 @@ Expect to read a paper per day.
 - [TBD](20200106/README.md)
 - [Collaborative SLAM Patrik Schmuck from ETHZ](https://scholar.google.com/citations?hl=en&user=ssNhoMgAAAAJ&sortby=pubdate&view_op=list_works&citft=1&citft=2&email_for_op=wenwsrobo%40gmail.com&gmla=AJsN-F7zDqQ26Xyb5SOvvZMzQlZ7gEPwOjOvfCCHn44Y5UrwfQwD23SA6xWXS1w5GfQ_ma0FPkHUUJuvXAnCQGQgMW3F-JoprpaLQzpMIKPshIDrFa4IlQNsjHrDccubOyx506EtYcNrRwAyI_eIQMTdL3I3GMltZ4fTiZdan2FM0JJRk6vT7QVk9gH62s8aAKjetgffjc3504CLe3tytTTet85RS21RUKjygkZ9LGnezItmxqyoBgs8VUeMvUrQpbtZdK3Oi97d)
 
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.

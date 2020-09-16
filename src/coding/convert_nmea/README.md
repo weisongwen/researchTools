@@ -4,7 +4,14 @@ This function is mainly used to extract the loosely solution from the .ubx data 
 
 - file convert_nmea.m
     - MATLAB file for convert .ub file to excell file
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+    ```
+    REAL_DATA = 1; // using simulated data or real data
+    histSize = 0.3; // bin size or histogram size
+    ```
+=======
 
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 
 ### Reference
 1. [(slides)](https://www.ipb.uni-bonn.de/wp-content/uploads/2018/05/lecture_1.pdf))

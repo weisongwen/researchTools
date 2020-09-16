@@ -13,7 +13,11 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     $ git config --global user.name "John Smith"
     $ git config --global user.email jsmith@seas.upenn.edu
     ```
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+    if you want to use a different name/email for a specific project, you cna change it just for that package. use the above commands, but leave out the *--global*
+=======
     if you want to use a different name/email for a specific project, you can change it just for that package. use the above commands, but leave out the *--global*
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 - **connect the respository in the internet**
     ```
     $ git remote add origin git@git.assembla.com:portfolio/space.space_name.git
@@ -36,6 +40,8 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     ```
     $ git pull origin master
     ```
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+=======
 
     - **[got conflict with the cloud end](https://blog.csdn.net/asty9000/article/details/83591142)** 
     ```bash
@@ -50,6 +56,7 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     # clear the content 
     git stash clear
     ```
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 - **generate new branch and push code to new branch**
     - **step 1: generate branch and push code**
     ```
@@ -65,6 +72,8 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     git merge origin/xxx      (合并xxx分支到主分支，此处的xxx为test)
     git push -u origin master      (上传到github)
     ```
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+=======
 - **delete the lcoal and remote branchs**
     - **remote branch**
     ```
@@ -75,6 +84,7 @@ The simplest services for hosting project files are Dropbox and Google Drive . I
     git branch -d your_local_branch
     git branch -D your_local_branch
     ```
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 ### Reference
 1. [A tutorial for Git and GitLab](https://www.ifi.uzh.ch/dam/jcr:ff780599-d5e2-4d05-b923-1c333cbf2842/A%20Tutorial%20for%20GitHub.pdf)
 2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf)

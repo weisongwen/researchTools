@@ -37,7 +37,11 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [GLOG, GFLAGS, Cmakelist](https://zhuanlan.zhihu.com/p/81854369)
 - [Github: manage your code with Github](coding/GithubUsage/README.md)
 - [show/plot trajectory in rviz with google map/openstreet map as background](https://github.com/gareth-cross/rviz_satellite)
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+- [VS Code Auto-completion](coding/VS_Code/README.md) 
+=======
 - [VS Code Auto-completion, useful tools in vs code, visual studio code, VS-code](coding/VS_Code/README.md) 
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 - [Eigen bug unsupported files cannot be found](https://zhuanlan.zhihu.com/p/102604655) 
 - [Ubuntu Install](coding/ubuntuInstall/README.md) 
 - [write data to csv using C++](coding/data2csv/README.md) 
@@ -67,6 +71,20 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
  find . -type f | xargs touch
 ```
 - [get ublox solution from CSV, read CSV using C++](coding/data2csv/README.md)
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+- [vector operation: reduce vector based on the other vector, ](coding/vectorOperation/README.md)
+- [rosbag operation, commands ](coding/rosbagOperation/README.md)
+- [deliver ros handle from main cpp to any cpp from a library](coding/deliverROSHandle/README.md)
+- [synchronize, allign, simultaneously subscribe several ros topics using messages filter](coding/rosmessageFilter/README.md)
+
+- [map operation](coding/map_operation/README.md)
+- [code_notes_for_VINS](coding/code_notes_for_VINS/README.md)
+- [Matlab_command](coding/Matlab_command/README.md)
+- [calibration_IMUCamera](coding/calibration_IMUCamera/README.md)
+
+
+### Paper Reviewing
+=======
 - [vector, map operation: reduce vector based on the other vector, ](coding/vectorOperation/README.md)
 - [rosbag operation, commands ](coding/rosbagOperation/README.md)
 - [deliver ros handle from main cpp to any cpp from a library](coding/deliverROSHandle/README.md)
@@ -74,14 +92,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [C++ blogs, main operators in C++, const, static](https://zhaostu4.github.io/2019/11/28/%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB-C++%E5%9F%BA%E7%A1%80%E7%B4%A2%E5%BC%95/)
 - [latitude, longitude, altitude to ECEF conversion](https://www.oc.nps.edu/oc2902w/coord/llhxyz.htm?source=post_page---------------------------)
 
-<<<<<<< HEAD
 - [get jacobian matrix from Ceres-solver optimization, define states in ceres-solver, new array memory, initialize array](coding/getJacobian/README.md)
-=======
-- [map operation](coding/map_operation/README.md)
-- [code_notes_for_VINS](coding/code_notes_for_VINS/README.md)
-- [Matlab_command](coding/Matlab_command/README.md)
-- [calibration_IMUCamera](coding/calibration_IMUCamera/README.md)
->>>>>>> 5fe2b0a25cb14d933b4939b90a159a148bf47923
 
 - [bug:signbit' was not declared in this scope](https://zhuanlan.zhihu.com/p/157710045)
 - [switch between Qt 4 and Qt 5](https://blog.csdn.net/lch_vison/article/details/80899039)
@@ -99,6 +110,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 
 ### Paper Reviewing and Code Implementation
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 - [Paper reviewing with ideas and comments](paperReview/README.md) 
 
 ## Industrial
@@ -129,7 +141,10 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 | :---:  | :---:  | :---:  | :---:  |
 | [IRIS at ETHZ](https://www.iris.ethz.ch/) | [HKUST Aerial Robotics Group](http://uav.ust.hk/) | [RAM Lab in HKUST](https://ram-lab.com/) | [Robot Perception Lab](https://rpl.ri.cmu.edu/) |
 | [Robust Field Autonomy Lab](https://robustfieldautonomylab.github.io/) | [RPNG Lab at University of Delaware](https://sites.udel.edu/robot/) | [State Key Lab of CAD&CG at Zhejiang University](http://www.cad.zju.edu.cn/home/gfzhang/) | [Toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
+<<<<<<< 5fe2b0a25cb14d933b4939b90a159a148bf47923
+=======
 | [StachnissLab Photogrammetry & Robotics](https://www.ipb.uni-bonn.de/) | [TBD](https://sites.udel.edu/robot/) | [TBD](http://www.cad.zju.edu.cn/home/gfzhang/) | [Toronto AI Lab](http://www.cs.toronto.edu/~urtasun/) |
+>>>>>>> add lab sensorkit extrinsics between stereo and imu
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
