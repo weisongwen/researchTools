@@ -38,9 +38,9 @@ kalibr_calibrate_imu_camera --target data/april_6x6.yaml --cam cam.yaml --imu xs
 
 # My small sensor kit parameters:
 
-<p align="center">
+  <p align="center">
   <img width="300pix" src="smallSensorKit.jpg">
-</p>
+  </p>
 
 
 ```
@@ -126,7 +126,7 @@ cam0 (transformation from IMU to camera coordinates):
   <img width="300pix" src="sk1.jpg">
 </p>
 
-1. IMU parameters:
+## 1. IMU parameters:
    
  ```
 #Accelerometers
@@ -142,7 +142,7 @@ update_rate:                 200.0      #Hz (for discretization of the values ab
 
 ```
 
-2.  Left camera intrinsic param and extrinsic param with respect to IMU: 
+## 2.  Left camera intrinsic param and extrinsic param with respect to IMU: 
 ```
 leftcamera intrinsic:
   cam_overlaps: []
@@ -170,7 +170,7 @@ Imu transformed to leftcamera:
   rostopic: /left_camera/image_color
   timeshift_cam_imu: -0.041354031903880546
 ```
-3. Right camera intrinsic param and extrinsic param with respect to IMU: 
+## 3. Right camera intrinsic param and extrinsic param with respect to IMU: 
 
 ```
 rightcamera intrinsic:
@@ -199,7 +199,25 @@ Imu transformed to rightcamera:
   rostopic: /right_camera/image_color
   timeshift_cam_imu: -0.030317139821607345
 ```
+## 4. The corner detection during the calibration process
+
+<p align="center">
+  <img width="300pix" src="cornerdetect1.png">
+</p>
+
+<p align="center">
+  <img width="300pix" src="cornerdetect2.png">
+</p>
+
+<p align="center">
+  <img width="300pix" src="cornerdetect3.png">
+</p>
+
+<p align="center">
+  <img width="300pix" src="cornerdetect4.png">
+</p>
+
 ```
-### Contact
+## Contact
 - Author: xiwei, PhD Candidate in Hong Kong Polytechnic University.
 - Affiliation: [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/)
