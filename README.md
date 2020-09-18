@@ -74,14 +74,14 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [C++ blogs, main operators in C++, const, static](https://zhaostu4.github.io/2019/11/28/%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB-C++%E5%9F%BA%E7%A1%80%E7%B4%A2%E5%BC%95/)
 - [latitude, longitude, altitude to ECEF conversion](https://www.oc.nps.edu/oc2902w/coord/llhxyz.htm?source=post_page---------------------------)
 
-<<<<<<< HEAD
 - [get jacobian matrix from Ceres-solver optimization, define states in ceres-solver, new array memory, initialize array](coding/getJacobian/README.md)
-=======
+
 - [map operation](coding/map_operation/README.md)
 - [code_notes_for_VINS](coding/code_notes_for_VINS/README.md)
 - [Matlab_command](coding/Matlab_command/README.md)
-- [calibration_IMUCamera](coding/calibration_IMUCamera/README.md)
->>>>>>> 5fe2b0a25cb14d933b4939b90a159a148bf47923
+- [calibration_IMUCamera](coding/Calibration IMU&Camera/README.md)
+
+
 
 - [bug:signbit' was not declared in this scope](https://zhuanlan.zhihu.com/p/157710045)
 - [switch between Qt 4 and Qt 5](https://blog.csdn.net/lch_vison/article/details/80899039)

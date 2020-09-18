@@ -24,11 +24,15 @@
 
 1. after downloading two packages: imu_utils, code_utils, then firstly put code_utils under src to compile, if successfull, then put imu_utils under same directory to compile;
 1. next, record imu data for 2 hours;
-2. calibrate imu by two steps(i choose xsens);
+2. calibrate imu by two steps(I choose xsens);
+   
+   notes: check your topic name in launch file, 
    
    rosbag play -r 200　filename.bag 
 
-   roslaunch imu_utils x.launch
+   cd /imu_catkin_ws/src
+
+   roslaunch imu_utils xsens.launch
 
 
 ## How to calibrate IMU-Camera extrinsic parameters?
@@ -217,6 +221,87 @@ Imu transformed to rightcamera:
   <img width="300pix" src="cornerdetect4.png">
 </p>
 
+# Android phone intrinsic and extrinsic parameters calibration:
+
+The apk: android_ros_sensors (https://github.com/huaibovip/android_ros_sensors) could connect mobile phone with ros under same network. It has nice resolution 1920x1080, almost no timeoffset between imu and camera timestamp (you have to use a good network)! I use this one, thanks to the contributor!!
+
+There is another apk, you can also have a try:
+https://github.com/hitcm/Android_Camera-IMU
+
+Recently, I calibrate xiaomi8, an android system, I met a lot of problems, now I would take notes here to record.
+
+## Problems: 1. If you using kalibr toolbox to calibrate camera intrinsics, you will meet a problem, like: 
+  ### genmsg.msg_loader.MsgNotFound: Cannot locate message [Header]: unknown package [std_msgs] on search path 
+## Solution: the reason is that xiaomi8 publishes topic: camera/image/compressed, the format is not appliable. We changed the topic by following steps:
+
+ -  cd /androidPhoneDataCollection/androidVINS/launch
+ - roslaunch roslaunch changeImageFormat.launch
+
+After, the original topic camera/image/compressed would be changed into camera/image_color; now you can use kalibr to calibrate cameras happily
+
+## Problems: 2. When you calibrate imu and camera, you still cannot successfully, since there is still an error, like:
+   ### genmsg.msg_loader.MsgNotFound: Cannot locate message [Header]: unknown package [std_msgs] on search path
+ ## Solution: because the apk was written by java, the imu topic looks like: android/imu, however, it is a little different from normal format in c++, so we need to fix the bag collected by mobile phone as follows:
+
+  Using rosbag_fixer to fix your bag including android/imu and camera/image_color(here, make sure you have changed the camera topic)
+
+  https://github.com/baaixw/rosbag_fixer
+
+  - cd /rosbag_fixer/src/rosbag_fixer (this is my path) 
+
+ - python fix_bag_msg_def.py --use-local-defs  2020-09-18-10-34-01.bag  output.bag
+ - (the original command: fix_bag_msg_def.py --use-local-defs /path/to/input.bag /path/to/output.bag)
+
+After, the output.bag that you could use to calibrate extrinsic between camera and imu. Congratulations!
+
+## xiaomi8 parameters are here:
+
+```
+camera intrinsic:
+
+cam0:
+  cam_overlaps: []
+  camera_model: pinhole
+  distortion_coeffs: [0.15345638394021716, -0.29245476647533925, -0.0026774118296027396,
+    0.003280023401982872]
+  distortion_model: radtan
+  intrinsics: [1439.145787744202, 1435.2951737138117, 960.0557746078234, 536.742235693866]
+  resolution: [1920, 1080]
+  rostopic: /camera/image_color
+```
+```
+IMU parameters:
+
+#Accelerometers
+accelerometer_noise_density: 1.7163578610323169e-02   #Noise density (continuous-time)
+accelerometer_random_walk:   8.4758501903770380e-04   #Bias random walk
+
+#Gyroscopes
+gyroscope_noise_density:     1.2289118804093607e-03   #Noise density (continuous-time)
+gyroscope_random_walk:       2.3889749018626475e-05   #Bias random walk
+
+rostopic:                    /android/imu      #the IMU ROS topic
+update_rate:                 200.0      #Hz (for discretization of the values above)
+```
+```
+extrinsics between camera and IMU:
+  T_cam_imu:
+  - [-0.0038450117007527143, -0.9999924259488415, 0.0006032660869666336, 0.024382555789097742]
+  - [-0.9999890480904183, 0.003846607004911879, 0.0026659545698929595, 0.0007775721665316198]
+  - [-0.002668254905372613, -0.000593008853536082, -0.9999962643711522, 0.06799051840484763]
+  - [0.0, 0.0, 0.0, 1.0]
+  cam_overlaps: []
+  camera_model: pinhole
+  distortion_coeffs: [0.15345638394021716, -0.29245476647533925, -0.0026774118296027396,
+    0.003280023401982872]
+  distortion_model: radtan
+  intrinsics: [1439.145787744202, 1435.2951737138117, 960.0557746078234, 536.742235693866]
+  resolution: [1920, 1080]
+  rostopic: /camera/image_color
+  timeshift_cam_imu: -0.05143092946770826
+```
+```
+Actually, our device frequencies are:  IMU: 239HZ, camera: 15HZ.
 ```
 ## Contact
 - Author: xiwei, PhD Candidate in Hong Kong Polytechnic University.
