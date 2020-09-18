@@ -1,4 +1,4 @@
-# Calibration IMU&Camera
+# Calibration IMUCamera
 
 ## How to get camera intrinsic parameters?
 -   There are two ways: 
