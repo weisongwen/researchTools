@@ -96,6 +96,9 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [LiDAR IMU calibration package based on motion, targetless calibration](https://github.com/APRIL-ZJU/lidar_IMU_calib)
 
 - [pointGrey camera and Xsense Mti 30 IMU sensor data collection](coding/camera_imu_collection/README.md)
+- [ros Could NOT find GeographicLib](https://github.com/ethz-asl/rotors_simulator/issues/520)
+  - command to fix: sudo apt-get install libgeographic-dev ros-kinetic-geographic-msgs
+
 
 
 ### Paper Reviewing and Code Implementation
