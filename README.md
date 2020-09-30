@@ -98,6 +98,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 - [pointGrey camera and Xsense Mti 30 IMU sensor data collection](coding/camera_imu_collection/README.md)
 - [ros Could NOT find GeographicLib](https://github.com/ethz-asl/rotors_simulator/issues/520)
   - command to fix: sudo apt-get install libgeographic-dev ros-kinetic-geographic-msgs
+- [Install the MATLAB2018b in Ubuntu 18.04](https://www.cnblogs.com/sixuwuxian/p/12512275.html)
 
 
 
