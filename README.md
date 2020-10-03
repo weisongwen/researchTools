@@ -104,6 +104,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 - [Personal Detection](https://github.com/pal-robotics/pal_person_detector_opencv)
 
+- [Android Sensor Driver for ROS](https://github.com/huaibovip/android_ros_sensors)
 
 
 
