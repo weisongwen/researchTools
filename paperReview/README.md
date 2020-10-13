@@ -72,6 +72,14 @@ Expect to read a paper per day.
 - [Vision-based approach for GPS Localization Improvement in Semi-Obstructed Areas](https://github.com/alirezaahmadi/GNSS-AR)
 - [Eagleye is an open-source software for vehicle localization utilizing GNSS and IMU](https://github.com/MapIV/eagleye)
 
+### Robust Optimization with Outliers
+
+- [Huu Le, Postdoctoral Research Fellow at the Department of Electrical Engineering, Chalmers University of Technology](https://sites.google.com/view/huule/)
+- [ASKER - Adaptive Scaling of KERnels: **Accelerated Graduated filtering**](https://github.com/intellhave/ASKER)
+- [graduated non-convexity for robust spatial perception: **Best Student Awards, ICRA 2020**](https://arxiv.org/pdf/1909.08605.pdf)
+- [Outlier-Robust Estimation: Hardness, Minimally-Tuned Algorithms, and Applications: **open the next page for robust estimation**](https://arxiv.org/pdf/2007.15109.pdf)
+- [Robust map optimization using dynamic covariance scaling:**first state of the art algorithm for robust estimation**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.719.1288&rep=rep1&type=pdf)
+
 
 ### LiDAR SLAM
 - **LOAM**
