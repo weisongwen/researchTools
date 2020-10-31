@@ -106,6 +106,8 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 -[cc1: error while loading shared libraries: libmpc.so.2](https://stackoverflow.com/questions/19625451/cc1-error-while-loading-shared-libraries-libmpc-so-2-cannot-open-shared-objec)
 
+-[The Algorithms - C++](https://github.com/TheAlgorithms/C-Plus-Plus)
+
 
 
 ### Paper Reviewing and Code Implementation

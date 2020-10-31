@@ -39,12 +39,8 @@
     foutGt.close();
     ```
     groundTruth should be delared globally to gradually push back data into the csv.
-    
-    **write data into the folder gradually**
-    ```
-    fprintf(groundTruth, "%d ,%3.2f ,%3.2f  \n", count1, enu1(0), enu1(1));
-    fflush(groundTruth); // make sure the data is saved
-    ```
+    - variable ```ios::app```: if the file is not existing, generate new file; if file exists, add content from the end of the file.
+    - variable ```ios::ate```: if the file is not existing, generate new file; if file exists, clear the whole file and add content from the start of the file.
 
 ## read data from CSV using C++ (e.g. read ublox solution from csv file)
 
