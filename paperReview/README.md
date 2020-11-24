@@ -61,6 +61,10 @@ Expect to read a paper per day.
         - [Evaluation of kinematic precise point positioning convergence with an incremental graph optimizer](https://arxiv.org/pdf/1804.04197)
         - [Robust Navigation In GNSS Degraded Environment Using Graph Optimization](https://arxiv.org/pdf/1806.08899)
         - [Flight Data Assessment of Tightly-Coupled PPP/INS using Real-Time Products](https://web.statler.wvu.edu/~gross/docs/IEEE_AESSM_TightPPP_INS_wRTGxGDGPS_R2.pdf)
+        
+    - **Sparse estimation for the NLOS bias estimation**
+        - [GPS multipath and NLOS mitigation for relative positioning in urban environments](https://www.sciencedirect.com/science/article/pii/S1270963820309974)
+        - [Multipath Mitigation for GNSS Positioning in an Urban Environment Using Sparse Estimation](https://ieeexplore.ieee.org/abstract/document/8403301)
 
 ### GNSS/INS Integration
 
@@ -136,10 +140,13 @@ Expect to read a paper per day.
 ### Autonomous Driving
 - [Stanford Self Driving Car Code](https://github.com/emmjaykay/stanford_self_driving_car_code) [[Code](https://github.com/emmjaykay/stanford_self_driving_car_code)]
 
-## Cooperative positioning
+## Cooperative positioning && Wireless communication
 - [TBD](20200106/README.md)
 - [Collaborative SLAM Patrik Schmuck from ETHZ](https://scholar.google.com/citations?hl=en&user=ssNhoMgAAAAJ&sortby=pubdate&view_op=list_works&citft=1&citft=2&email_for_op=wenwsrobo%40gmail.com&gmla=AJsN-F7zDqQ26Xyb5SOvvZMzQlZ7gEPwOjOvfCCHn44Y5UrwfQwD23SA6xWXS1w5GfQ_ma0FPkHUUJuvXAnCQGQgMW3F-JoprpaLQzpMIKPshIDrFa4IlQNsjHrDccubOyx506EtYcNrRwAyI_eIQMTdL3I3GMltZ4fTiZdan2FM0JJRk6vT7QVk9gH62s8aAKjetgffjc3504CLe3tytTTet85RS21RUKjygkZ9LGnezItmxqyoBgs8VUeMvUrQpbtZdK3Oi97d)
+- [Secure Location-Aware Authentication and Communication for Intelligent Transportation Systems](https://arxiv.org/pdf/2011.08936.pdf)
 
+## Navigation Safety
+- [TBD](20200106/README.md)
 
 ### Contact
 - Author: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), PhD Candidate in Hong Kong Polytechnic University.
