@@ -166,6 +166,57 @@ parameter_temp[4] = new double[1 * 1]; // residual vs Td
 factorlist.back()->check(parameter_temp);
 ```
 
+## operate the vector array via function vector<double*>
+```c++
+// Factory method to create a CostFunction from a DDpseudorangeVSVConstraint to
+// conveniently add to a ceres problem.
+static DDpseudorangeVSVDynaCostFunction* Create(DDMeasurement dd_measurement, Eigen::Vector3d base_pos, int keyIndex, std::vector<double*>* state_array, std::vector<double*>* pose_parameter_blocks, std::vector<int*>* ar_state_num) {
+    
+    DDpseudorangeVSVConstraint* constraint = new DDpseudorangeVSVConstraint(
+        dd_measurement, base_pos, keyIndex);
+    
+    DDpseudorangeVSVDynaCostFunction* cost_function = new DDpseudorangeVSVDynaCostFunction(constraint);
+    
+    pose_parameter_blocks->clear();
+    // double a[5] = {1,2,3,4,5};
+    // parameter_blocks->push_back(a);
+    // parameter_blocks->push_back(&((*state_array)[keyIndex]));
+    // parameter_blocks->push_back(state_array[keyIndex]);
+    
+    for(int i = 0; i <(keyIndex+1); i++)
+    {
+        pose_parameter_blocks->push_back((*state_array)[i]);
+        cost_function->AddParameterBlock(3 + (*ar_state_num)[i][0]);
+    }
+    // std::cout << "parameter_blocks.size()-> " << parameter_blocks->size() << std::endl;
+    // cost_function->AddParameterBlock(1);
+    // cost_function->AddParameterBlock(5);
+    
+    cost_function->SetNumResiduals(1);
+    return (cost_function);
+}
+```
+**with** 
+```c++
+/* position state array of factor graph */
+std::vector<double*> state_array;
+
+/* ambiguity state array of factor graph */
+std::vector<double*> ar_state_array;
+
+/* array save the num of ambiguity unknowns for each epoch */
+std::vector<int*> ar_state_num;
+
+.......................................................
+
+/* DynamicAutoDiffCostFunction-based cost function */
+std::vector<double*> pose_parameter_blocks;
+DDpseudorangeVSVConstraint::DDpseudorangeVSVDynaCostFunction* DD_pr_cost_function =
+DDpseudorangeVSVConstraint::Create(DD_measurement, base_pose,k,&state_array, &pose_parameter_blocks,  &ar_state_num);
+auto IDs = problem.AddResidualBlock(DD_pr_cost_function, loss_function, pose_parameter_blocks); 
+
+```
+
 ### Reference
 1. [Visualization.cpp in VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/vins_estimator/src/utility/visualization.cpp#L161)
 <!-- 2. [Quick Intro to Git and GitHub](https://hplgit.github.io/teamods/bitgit/Langtangen_bitgit_4print.pdf) -->

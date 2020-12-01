@@ -76,6 +76,8 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 - [get jacobian matrix from Ceres-solver optimization, define states in ceres-solver, new array memory, initialize array](coding/getJacobian/README.md)
 
+- [Eigen matrix usage, operation, rotation, transformation](coding/eigen_usage/README.md)
+
 - [map operation](coding/map_operation/README.md)
 - [code_notes_for_VINS](coding/code_notes_for_VINS/README.md)
 - [Matlab_command](coding/Matlab_command/README.md)
