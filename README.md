@@ -80,7 +80,7 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 
 - [map operation](coding/map_operation/README.md)
 - [code_notes_for_VINS](coding/code_notes_for_VINS/README.md)
-- [Matlab_command](coding/Matlab_command/README.md)
+- [Matlab command, plot](coding/Matlab_command/README.md)
 - [Calibration_IMUCamera](coding/Calibration_IMUCamera/README.md)
 
 - [bug:signbit' was not declared in this scope](https://zhuanlan.zhihu.com/p/157710045)
