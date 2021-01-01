@@ -1,11 +1,15 @@
 # Research_tools 
-This project contains some blogs, ideas, reviews and news related to sensor fusion and autonomous systems, e.g. autonomous driving and unmanned aerial vehicles.
+This project contains some **blogs**, **ideas**, **reviews** and **news** related to posiitoing and navigation via sensor/sensors fusion for autonomous systems, e.g. **autonomous driving** and **unmanned aerial vehicles**.
 
 <!-- <p align="center">
   <img width="712pix" src="img/framework20200104.png">
 </p> -->
 
 ## Content
+
+### Paper Reviewing and Code Implementation
+- [Paper reviewing with ideas and comments](paperReview/README.md) 
+
 ### Paper writing
 
 - [Endnote stuck probelm](https://www.zhihu.com/question/44969655/answer/415516847) 
@@ -112,20 +116,19 @@ This project contains some blogs, ideas, reviews and news related to sensor fusi
 -[Ceres-solver DynamicAutoDiffCostFunction ](https://ceres-solver.googlesource.com/ceres-solver/+/1.12.0/examples/robot_pose_mle.cc)
 
 
-### Paper Reviewing and Code Implementation
-- [Paper reviewing with ideas and comments](paperReview/README.md) 
-
 ## Industrial
 - [Kolmostar, GNSS](https://zhuanlan.zhihu.com/p/58346842)
 - [Applanix](https://www.applanix.com/products/posav.htm)
 - [Veth Research Associates](https://www.vethresearch.com/)
 - [NovAtel](https://www.novatel.com/products/span-gnss-inertial-systems/span-combined-systems/span-cpt/)
+- [FixPosition: GNSS/Visual integrated positioning](https://www.fixposition.com/)
 
 ## Challenging Dataset
 - [UrbanLoco:A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes](https://advdataset2019.wixsite.com/advlocalization)
 - [UrbanNav:an Open-Sourcing Localization Data Collected in Asian Urban Canyons, Including Tokyo and Hong Kong](https://www.polyu-ipn-lab.com/urbannav)
 - [Kaist Urban Dataset](https://irap.kaist.ac.kr/dataset/download_1.html)
 - [NCLT Dataset:The University of Michigan North Campus Long-Term Vision and LIDAR Dataset.](http://robots.engin.umich.edu/nclt/)
+- [The Blackbird UAV dataset: UAV Visual/Inertial integrated positioning](https://journals.sagepub.com/doi/pdf/10.1177/0278364920908331)
 
 ## Laboratory in Navigation
 <!-- - [NAV Lab at Standford](http://web.stanford.edu/~gracegao/)

@@ -12,6 +12,7 @@ Expect to read a paper per day.
 
 - **GNSS NLOS/Multipath**
     - [Robust Positioning in the Presence of Multipath and NLOS Signals ](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20190034171.pdf) 
+    - [GNSS Multipath mitigation via sparse estimation ](https://hal.archives-ouvertes.fr/hal-02096509/file/Lesouple_23553.pdf): **for the continuous work, please find the citations of this work in Google Scholar (who cite this work!)**
 
 - **GNSS Integrity**
     - [Integrity of Laser-Based Feature Extraction and Data Association ](https://ieeexplore.ieee.org/document/7479746) 
@@ -45,6 +46,11 @@ Expect to read a paper per day.
         - [Prediction of RTK-GNSS Performance in Urban Environments Using a 3D model and Continuous LoS Method](20200218/README.md)
     - **LAMBDA Algorithms and its variants**
         - [On the Best Integer Equivariant Estimator for Low-cost Single-frequency Multi-GNSS RTK Positioning](20200217/README.md)
+    - **Urban GNSS RTK**
+        - [Cooperative GNSS RTK: improving the geometry of constraints](https://www.mdpi.com/2072-4292/12/6/949/pdf)
+        - [A LiDAR aiding ambiguity resolution method using fuzzy one-to-many feature matching: : improving the geometry of constraints via landamrks from HD Maps](https://link.springer.com/article/10.1007/s00190-020-01426-z)
+        - [High-Precision Positioning and Mapping using Feature-based RTK/LiDAR/INS Integrated System for Urban Environments: : improving the geometry of constraints by integrating the LiDAR constraints](https://www.ion.org/publications/abstract.cfm?articleID=17745)
+
 
 - **GNSS SPP/PPP with FGO and Robust Model**
 
