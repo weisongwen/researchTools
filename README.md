@@ -67,9 +67,9 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 - [CPP-02 Modern C++:Compilation, Debugging, Functions, Headers/Source, Libraries, Cmake (2018,Igor)](coding/CPP02/README.md)
 - [CPP-03 Modern C++: Google Test, Namespace, Class, (2018,Igor)](coding/CPP03/README.md)
 - [warning:  Clock skew detected ros](coding/data2csv/README.md)
-```
- find . -type f | xargs touch
-```
+  ```
+  find . -type f | xargs touch
+  ```
 - [get ublox solution from CSV, read CSV using C++](coding/data2csv/README.md)
 - [vector, map operation: reduce vector based on the other vector, ](coding/vectorOperation/README.md)
 - [rosbag operation, commands ](coding/rosbagOperation/README.md)
@@ -114,6 +114,9 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 
 -[The Algorithms - C++](https://github.com/TheAlgorithms/C-Plus-Plus)
 -[Ceres-solver DynamicAutoDiffCostFunction ](https://ceres-solver.googlesource.com/ceres-solver/+/1.12.0/examples/robot_pose_mle.cc)
+
+-[Install ros in slow in source from china, update the source](https://blog.csdn.net/weixin_40483882/article/details/104406108)
+
 
 
 ## Industrial
