@@ -110,13 +110,13 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 
 - [Android Sensor Driver for ROS](https://github.com/huaibovip/android_ros_sensors)
 
--[cc1: error while loading shared libraries: libmpc.so.2](https://stackoverflow.com/questions/19625451/cc1-error-while-loading-shared-libraries-libmpc-so-2-cannot-open-shared-objec)
+- [cc1: error while loading shared libraries: libmpc.so.2](https://stackoverflow.com/questions/19625451/cc1-error-while-loading-shared-libraries-libmpc-so-2-cannot-open-shared-objec)
 
--[The Algorithms - C++](https://github.com/TheAlgorithms/C-Plus-Plus)
--[Ceres-solver DynamicAutoDiffCostFunction ](https://ceres-solver.googlesource.com/ceres-solver/+/1.12.0/examples/robot_pose_mle.cc)
+- [The Algorithms - C++](https://github.com/TheAlgorithms/C-Plus-Plus)
+- [Ceres-solver DynamicAutoDiffCostFunction ](https://ceres-solver.googlesource.com/ceres-solver/+/1.12.0/examples/robot_pose_mle.cc)
 
--[Install ros in slow in source from china, update the source](https://blog.csdn.net/weixin_40483882/article/details/104406108)
-
+- [Install ros in slow in source from china, update the source](https://blog.csdn.net/weixin_40483882/article/details/104406108)
+- [Solution to fix the issue: Github slow in mainland china](https://www.cnblogs.com/microman/p/6133256.html) (**you only need to add the IP for github.com**)
 
 
 ## Industrial
