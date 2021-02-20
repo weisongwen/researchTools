@@ -118,6 +118,7 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 - [Install ros in slow in source from china, update the source](https://blog.csdn.net/weixin_40483882/article/details/104406108)
 - [Solution to fix the issue: Github slow in mainland china](https://www.cnblogs.com/microman/p/6133256.html) (**you only need to add the IP for github.com**)
 - [save rostopic to CSV, save a specific topic to csv](https://answers.ros.org/question/55037/is-there-a-way-to-save-all-rosbag-data-into-a-csv-or-text-file/) 
+- [CS 20SI: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si/2017/)
 
 
 ## Industrial
