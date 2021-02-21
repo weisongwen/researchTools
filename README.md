@@ -120,6 +120,7 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 - [save rostopic to CSV, save a specific topic to csv](https://answers.ros.org/question/55037/is-there-a-way-to-save-all-rosbag-data-into-a-csv-or-text-file/) 
 - [CS 20SI: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si/2017/)
 - [TEX-Cup Dataset Urban GNSS positioning](https://radionavlab.ae.utexas.edu/index.php?option=com_content&view=article&id=517:texcup&catid=50&Itemid=27)
+- [EU Long Term Datasets](https://epan-utbm.github.io/utbm_robocar_dataset/)
 
 
 ## Industrial
