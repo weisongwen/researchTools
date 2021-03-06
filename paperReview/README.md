@@ -50,6 +50,7 @@ Expect to read a paper per day.
         - [Cooperative GNSS RTK: improving the geometry of constraints](https://www.mdpi.com/2072-4292/12/6/949/pdf)
         - [A LiDAR aiding ambiguity resolution method using fuzzy one-to-many feature matching: : improving the geometry of constraints via landamrks from HD Maps](https://link.springer.com/article/10.1007/s00190-020-01426-z)
         - [High-Precision Positioning and Mapping using Feature-based RTK/LiDAR/INS Integrated System for Urban Environments: : improving the geometry of constraints by integrating the LiDAR constraints](https://www.ion.org/publications/abstract.cfm?articleID=17745)
+        -[Network-RTK Positioning for Automated Driving (NPAD)](https://www.diva-portal.org/smash/get/diva2:1530169/FULLTEXT01.pdf)
 
 
 - **GNSS SPP/PPP with FGO and Robust Model**
