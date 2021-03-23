@@ -116,7 +116,7 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 - [Ceres-solver DynamicAutoDiffCostFunction ](https://ceres-solver.googlesource.com/ceres-solver/+/1.12.0/examples/robot_pose_mle.cc)
 
 - [Install ros in slow in source from china, update the source](https://blog.csdn.net/weixin_40483882/article/details/104406108)
-- [Solution to fix the issue: Github slow in mainland china](https://www.cnblogs.com/microman/p/6133256.html) (**you only need to add the IP for github.com**)
+- [Solution to fix the issue: Github slow in mainland china](https://www.cnblogs.com/microman/p/6133256.html) (**you only need to add the IP for github.com, export HTTPS_PROXY=127.0.0.1:8001**)
 - [save rostopic to CSV, save a specific topic to csv](https://answers.ros.org/question/55037/is-there-a-way-to-save-all-rosbag-data-into-a-csv-or-text-file/) 
 - [CS 20SI: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si/2017/)
 - [TEX-Cup Dataset Urban GNSS positioning](https://radionavlab.ae.utexas.edu/index.php?option=com_content&view=article&id=517:texcup&catid=50&Itemid=27)
