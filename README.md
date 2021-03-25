@@ -127,6 +127,7 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 -[Robotics 101: Computational Linear Algebra](https://github.com/michiganrobotics/rob101)
 -[CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)
 -[rosdep update fail: export HTTPS_PROXY=127.0.0.1:8001](https://github.com/isocpp/CppCoreGuidelines)
+-[Motion-Based Camera-IMU Extrinsic Calibration](https://github.com/karnikram/motion-calib)
 
 ## Industrial
 - [Kolmostar, GNSS](https://zhuanlan.zhihu.com/p/58346842)
