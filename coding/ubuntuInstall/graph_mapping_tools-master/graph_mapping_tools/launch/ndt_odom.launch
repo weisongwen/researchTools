@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- arguments -->
+  <arg name="nodelet_manager" default="velodyne_nodelet_manager" />
+  <arg name="enable_floor_detection" default="true" />
+  <arg name="enable_gps" default="false" />
+  <arg name="enable_imu_acc" default="false" />
+  <arg name="enable_imu_ori" default="false" />
+  <arg name="enable_loop_detection" default="true" />
+  <arg name="points_topic" default="/velodyne_points" />
+  <param name="use_sim_time" value="true" />
+
+
+  <!-- transformation between lidar and base_link -->
+  <node pkg="tf" type="static_transform_publisher" name="lidar2base_publisher" args="0 0 0 0 0 0 base_link_graph_tools velodyne 10" />
+  <node pkg="tf" type="static_transform_publisher" name="imu2base_publisher" args="0 0 0 0 0 0 base_link_graph_tools imu 10" />
+
+  <!-- in case you use velodyne_driver, comment out the following line -->
+  <node pkg="nodelet" type="nodelet" name="$(arg nodelet_manager)" args="manager" output="screen"/>
+
+  <!-- prefiltering_nodelet -->
+  <node pkg="nodelet" type="nodelet" name="prefiltering_nodelet" args="load graph_mapping_tools/PrefilteringNodelet $(arg nodelet_manager)">
+    <remap from="/velodyne_points" to="$(arg points_topic)" />
+    <!-- in case base_link_frame is blank, mapping will be performed in the lidar frame -->
+    <param name="base_link_frame" value="base_link_graph_tools" />
+    <!-- distance filter -->
+    <param name="use_distance_filter" value="true" />
+    <param name="distance_near_thresh" value="0.1" />
+    <param name="distance_far_thresh" value="100.0" />
+    <!-- NONE, VOXELGRID, or APPROX_VOXELGRID -->
+    <param name="downsample_method" value="VOXELGRID" />
+    <param name="downsample_resolution" value="0.1" />
+    <!-- NONE, RADIUS, or STATISTICAL -->
+    <param name="outlier_removal_method" value="RADIUS" />
+    <param name="statistical_mean_k" value="30" />
+    <param name="statistical_stddev" value="1.2" />
+    <param name="radius_radius" value="0.5" />
+    <param name="radius_min_neighbors" value="2" />
+  </node>
+
+    <!-- scan_matching_odometry_nodelet -->
+  <node pkg="nodelet" type="nodelet" name="scan_matching_odometry_nodelet" args="load graph_mapping_tools/ScanMatchingOdometryNodelet $(arg nodelet_manager)">
+      <param name="points_topic" value="$(arg points_topic)" />
+      <param name="odom_frame_id" value="odom_graph_tools" />
+      <param name="keyframe_delta_trans" value="2.5" />
+      <param name="keyframe_delta_angle" value="1.5" />
+      <param name="keyframe_delta_time" value="5" />
+      <param name="transform_thresholding" value="false" />
+      <param name="max_acceptable_trans" value="1.0" />
+      <param name="max_acceptable_angle" value="1.0" />
+      <param name="downsample_method" value="NONE" />
+      <param name="downsample_resolution" value="0.1" />
+      <param name="use_imu_ori_predi" value="0.0" />
+      <!-- ICP, GICP, NDT, GICP_OMP, or NDT_OMP(recommended) -->
+      <param name="registration_method" value="NDT_OMP" />
+      <param name="ndt_resolution" value="5.0" />
+      <param name="ndt_num_threads" value="0" />
+      <param name="ndt_nn_search_method" value="KDTREE" />
+  </node>
+
+</launch>

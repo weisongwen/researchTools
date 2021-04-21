@@ -1,0 +1,15 @@
+<library path="lib/libscan_matching_odometry_nodelet">
+  <class name="graph_mapping_tools/ScanMatchingOdometryNodelet" type="graph_mapping_tools::ScanMatchingOdometryNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libfloor_detection_nodelet">
+  <class name="graph_mapping_tools/FloorDetectionNodelet" type="graph_mapping_tools::FloorDetectionNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libprefiltering_nodelet">
+  <class name="graph_mapping_tools/PrefilteringNodelet" type="graph_mapping_tools::PrefilteringNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libgraph_mapping_tools_nodelet">
+  <class name="graph_mapping_tools/HdlGraphSlamNodelet" type="graph_mapping_tools::HdlGraphSlamNodelet" base_class_type="nodelet::Nodelet" />
+</library>
