@@ -130,6 +130,7 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 -[Motion-Based Camera-IMU Extrinsic Calibration](https://github.com/karnikram/motion-calib)
 -[video2rosbag:convert a video to a rosbag file](https://github.com/Cecilimon/video2bag)
 -[vins_with_encoder](https://github.com/Wiggrim/vins_with_encoder)
+- [ROS metapackage for ground robot 3D navigation and exploration](https://github.com/noeperez/indires_navigation)
 ## Industrial
 - [Kolmostar, GNSS](https://zhuanlan.zhihu.com/p/58346842)
 - [Applanix](https://www.applanix.com/products/posav.htm)
