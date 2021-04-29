@@ -20,7 +20,7 @@ Debug the ros node with GDB. Some error (such as **segment fault**) is difficult
   ```
   or (launch)
   ```
-  $ <node pkg="package" type="node" name="node_name" output="screen" launch-prefix="xterm -e gdb -ex run --args">/>  
+  $ <node pkg="package" type="node" name="node_name" output="screen" launch-prefix="gdb -ex run --args" >/>  
   ```
   or (python)
   ```
