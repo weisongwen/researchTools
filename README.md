@@ -133,6 +133,7 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 - [ROS metapackage for ground robot 3D navigation and exploration](https://github.com/noeperez/indires_navigation)
 - [C++ implementation of modified LAMBDA](https://github.com/aaronboda24/MLAMBDA-Eigen)
 - [loosely-coupled GNSS IMU INS integration in the ECEF frame](https://github.com/aaronboda24/Loose-GNSS-IMU)
+- [NTU VIRAL: A Visual-Inertial-Ranging-Lidar Dataset for Autonomous Aerial Vehicle](https://ntu-aris.github.io/ntu_viral_dataset/)
 ## Industrial
 - [Kolmostar, GNSS](https://zhuanlan.zhihu.com/p/58346842)
 - [Applanix](https://www.applanix.com/products/posav.htm)
