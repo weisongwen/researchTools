@@ -134,6 +134,7 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 - [C++ implementation of modified LAMBDA](https://github.com/aaronboda24/MLAMBDA-Eigen)
 - [loosely-coupled GNSS IMU INS integration in the ECEF frame](https://github.com/aaronboda24/Loose-GNSS-IMU)
 - [NTU VIRAL: A Visual-Inertial-Ranging-Lidar Dataset for Autonomous Aerial Vehicle](https://ntu-aris.github.io/ntu_viral_dataset/)
+- [extract the image from rosbag to png, image to file](https://gist.github.com/wngreene/835cda68ddd9c5416defce876a4d7dd9)
 ## Industrial
 - [Kolmostar, GNSS](https://zhuanlan.zhihu.com/p/58346842)
 - [Applanix](https://www.applanix.com/products/posav.htm)
