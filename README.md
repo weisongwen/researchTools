@@ -1,5 +1,5 @@
 # Research_tools 
-This project contains some **blogs**, **ideas**, **reviews** and **news** related to posiitoing and navigation via sensor/sensors fusion for autonomous systems, e.g. **autonomous driving** and **unmanned aerial vehicles**.
+This project contains some **blogs**, **ideas**, **reviews** and **news** related to posiitoing and navigation via sensor/sensors fusion for autonomous systems, e.g. **autonomous driving** and **unmanned aerial vehicles**. Some interesting papers will be updated in the Issues and will be closed once the paper is read.
 
 <!-- <p align="center">
   <img width="712pix" src="img/framework20200104.png">
