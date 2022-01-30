@@ -36,6 +36,7 @@ This project contains some **blogs**, **ideas**, **reviews** and **news** relate
 
 - [Debug ros node with GDB](coding/GDB/README.md) 
 - [Self-defined ROS msg](https://zhuanlan.zhihu.com/p/82381074)
+- [Could not get lock /var/lib/dpkg/lock-frontend - open](https://askubuntu.com/questions/1109982/e-could-not-get-lock-var-lib-dpkg-lock-frontend-open-11-resource-temporari)
 - [Curve fitting with Ceres](https://zhuanlan.zhihu.com/p/82984902)
 - [Ceres Solver Introduction](https://zhuanlan.zhihu.com/p/82984902)
 - [GLOG, GFLAGS, Cmakelist](https://zhuanlan.zhihu.com/p/81854369)
